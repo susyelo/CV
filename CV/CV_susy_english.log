@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (MiKTeX 2.9.6600 64-bit) (preloaded format=pdflatex 2018.3.12)  3 MAR 2019 20:26
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (MiKTeX 2.9.6600 64-bit) (preloaded format=pdflatex 2018.3.12)  29 APR 2019 13:07
 entering extended mode
 **./CV_susy_english.tex
 (CV_susy_english.tex
@@ -898,28 +898,28 @@ Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 2
 )
 \Hy@SectionHShift=\skip80
 )
-Package hyperref Info: Option `breaklinks' set `true' on input line 53.
-Package hyperref Info: Option `bookmarksopen' set `true' on input line 53.
+Package hyperref Info: Option `breaklinks' set `true' on input line 55.
+Package hyperref Info: Option `bookmarksopen' set `true' on input line 55.
  (CV_susy_english.aux)
 \openout1 = `CV_susy_english.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 53.
-LaTeX Font Info:    ... okay on input line 53.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 53.
-LaTeX Font Info:    ... okay on input line 53.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 53.
-LaTeX Font Info:    ... okay on input line 53.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 53.
-LaTeX Font Info:    ... okay on input line 53.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 53.
-LaTeX Font Info:    ... okay on input line 53.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 53.
-LaTeX Font Info:    ... okay on input line 53.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 53.
-LaTeX Font Info:    ... okay on input line 53.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 53.
-LaTeX Font Info:    ... okay on input line 53.
-LaTeX Font Info:    Try loading font information for T1+lmr on input line 53.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 55.
+LaTeX Font Info:    ... okay on input line 55.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 55.
+LaTeX Font Info:    ... okay on input line 55.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 55.
+LaTeX Font Info:    ... okay on input line 55.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 55.
+LaTeX Font Info:    ... okay on input line 55.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 55.
+LaTeX Font Info:    ... okay on input line 55.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 55.
+LaTeX Font Info:    ... okay on input line 55.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 55.
+LaTeX Font Info:    ... okay on input line 55.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 55.
+LaTeX Font Info:    ... okay on input line 55.
+LaTeX Font Info:    Try loading font information for T1+lmr on input line 55.
 
 ("C:\Users\Susy Echeverria-L\AppData\Local\Programs\MiKTeX 2.9\tex\latex\lm\t1l
 mr.fd"
@@ -955,7 +955,7 @@ Package grfext Info: Graphics extension search list:
 G,.JBIG2,.JB2,.eps]
 (grfext)             \AppendGraphicsExtensions on input line 456.
 )
-LaTeX Info: Redefining \microtypecontext on input line 53.
+LaTeX Info: Redefining \microtypecontext on input line 55.
 Package microtype Info: Generating PDF output.
 Package microtype Info: Character protrusion enabled (level 2).
 Package microtype Info: Using default protrusion set `alltext'.
@@ -1006,7 +1006,7 @@ File: mt-cmr.cfg 2013/05/19 v2.2 microtype config. file: Computer Modern Roman
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
 \AtBeginShipoutBox=\box57
-Package hyperref Info: Link coloring OFF on input line 53.
+Package hyperref Info: Link coloring OFF on input line 55.
 
 ("C:\Users\Susy Echeverria-L\AppData\Local\Programs\MiKTeX 2.9\tex\latex\hyperr
 ef\nameref.sty"
@@ -1018,34 +1018,34 @@ Package: gettitlestring 2016/05/16 v1.5 Cleanup title references (HO)
 )
 \c@section@level=\count286
 )
-LaTeX Info: Redefining \ref on input line 53.
-LaTeX Info: Redefining \pageref on input line 53.
-LaTeX Info: Redefining \nameref on input line 53.
+LaTeX Info: Redefining \ref on input line 55.
+LaTeX Info: Redefining \pageref on input line 55.
+LaTeX Info: Redefining \nameref on input line 55.
  (CV_susy_english.out) (CV_susy_english.out)
 \@outlinefile=\write4
 \openout4 = `CV_susy_english.out'.
 
 \makecvheaddetailsbox=\box58
-LaTeX Font Info:    Try loading font information for OT1+lmr on input line 55.
+LaTeX Font Info:    Try loading font information for OT1+lmr on input line 57.
 
 ("C:\Users\Susy Echeverria-L\AppData\Local\Programs\MiKTeX 2.9\tex\latex\lm\ot1
 lmr.fd"
 File: ot1lmr.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
-LaTeX Font Info:    Try loading font information for OML+lmm on input line 55.
+LaTeX Font Info:    Try loading font information for OML+lmm on input line 57.
 
 ("C:\Users\Susy Echeverria-L\AppData\Local\Programs\MiKTeX 2.9\tex\latex\lm\oml
 lmm.fd"
 File: omllmm.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
-LaTeX Font Info:    Try loading font information for OMS+lmsy on input line 55.
+LaTeX Font Info:    Try loading font information for OMS+lmsy on input line 57.
 
 
 ("C:\Users\Susy Echeverria-L\AppData\Local\Programs\MiKTeX 2.9\tex\latex\lm\oms
 lmsy.fd"
 File: omslmsy.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
-LaTeX Font Info:    Try loading font information for OMX+lmex on input line 55.
+LaTeX Font Info:    Try loading font information for OMX+lmex on input line 57.
 
 
 ("C:\Users\Susy Echeverria-L\AppData\Local\Programs\MiKTeX 2.9\tex\latex\lm\omx
@@ -1053,11 +1053,11 @@ lmex.fd"
 File: omxlmex.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <10> on input line 55.
+(Font)              <10> on input line 57.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <7> on input line 55.
+(Font)              <7> on input line 57.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <5> on input line 55.
+(Font)              <5> on input line 57.
 
 ("C:\Users\Susy Echeverria-L\AppData\Local\Programs\MiKTeX 2.9\tex\latex\microt
 ype\mt-mvs.cfg"
@@ -1068,20 +1068,29 @@ File: mt-mvs.cfg 2006/07/05 v1.1 microtype config. file: Marvosym Euro (RS)
 \makecvheadpicturewidth=\skip82
 \makecvheadnamebox=\box60
 
-Underfull \hbox (badness 10000) in paragraph at lines 55--55
+Underfull \hbox (badness 10000) in paragraph at lines 57--57
 
  []
 
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <10.95> on input line 56.
+(Font)              <10.95> on input line 58.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <8> on input line 56.
+(Font)              <8> on input line 58.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <6> on input line 56.
-[1
+(Font)              <6> on input line 58.
+LaTeX Font Info:    Try loading font information for OMS+lmr on input line 69.
+
+("C:\Users\Susy Echeverria-L\AppData\Local\Programs\MiKTeX 2.9\tex\latex\lm\oms
+lmr.fd"
+File: omslmr.fd 2009/10/30 v1.6 Font defs for Latin Modern
+)
+LaTeX Font Info:    Font shape `OMS/lmr/m/n' in size <10.95> not available
+(Font)              Font shape `OMS/lmsy/m/n' tried instead on input line 69.
+ [1
 
 {C:/Users/Susy Echeverria-L/AppData/Local/MiKTeX/2.9/pdftex/config/pdftex.map}]
-LaTeX Font Info:    Try loading font information for T1+lmtt on input line 107.
+ [2]
+LaTeX Font Info:    Try loading font information for T1+lmtt on input line 160.
 
 
 ("C:\Users\Susy Echeverria-L\AppData\Local\Programs\MiKTeX 2.9\tex\latex\lm\t1l
@@ -1092,43 +1101,43 @@ Package microtype Info: Loading generic protrusion settings for font family
 (microtype)             `lmtt' (encoding: T1).
 (microtype)             For optimal results, create family-specific settings.
 (microtype)             See the microtype manual for details.
- [2] [3] [4] [5]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 371.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 371.
+ [3] [4] [5] [6]
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 397.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 397.
  (CV_susy_english.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 371.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 371.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 397.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 397.
 Package rerunfilecheck Info: File `CV_susy_english.out' has not changed.
-(rerunfilecheck)             Checksum: B02EEB21C841F43DB0E395E76C51B585;1748.
+(rerunfilecheck)             Checksum: 2C8FDF3044479B8E3AC5A65FB7A8E862;1700.
  ) 
 Here is how much of TeX's memory you used:
- 30788 strings out of 493303
- 577059 string characters out of 3124562
- 632010 words of memory out of 3000000
- 33858 multiletter control sequences out of 15000+200000
- 628328 words of font info for 114 fonts, out of 3000000 for 9000
+ 30818 strings out of 493303
+ 577551 string characters out of 3124562
+ 633024 words of memory out of 3000000
+ 33874 multiletter control sequences out of 15000+200000
+ 628755 words of font info for 119 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
  69i,14n,65p,812b,332s stack positions out of 5000i,500n,10000p,200000b,50000s
 {C:/Users/Susy Echeverria-L/AppData/Local/Programs/MiKTeX 2.9/fonts/enc/dvips
 /lm/lm-ec.enc}{C:/Users/Susy Echeverria-L/AppData/Local/Programs/MiKTeX 2.9/fon
 ts/enc/dvips/lm/lm-rm.enc}{C:/Users/Susy Echeverria-L/AppData/Local/Programs/Mi
-KTeX 2.9/fonts/enc/dvips/lm/lm-mathit.enc}<C:/Users/Susy Echeverria-L/AppData/L
+KTeX 2.9/fonts/enc/dvips/lm/lm-mathsy.enc}<C:/Users/Susy Echeverria-L/AppData/L
 ocal/Programs/MiKTeX 2.9/fonts/type1/public/lm/lmbx10.pfb><C:/Users/Susy Echeve
-rria-L/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/lm/lmmi10.pfb><C:/U
-sers/Susy Echeverria-L/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/lm/
-lmr10.pfb><C:/Users/Susy Echeverria-L/AppData/Local/Programs/MiKTeX 2.9/fonts/t
-ype1/public/lm/lmr12.pfb><C:/Users/Susy Echeverria-L/AppData/Local/Programs/MiK
-TeX 2.9/fonts/type1/public/lm/lmr17.pfb><C:/Users/Susy Echeverria-L/AppData/Loc
-al/Programs/MiKTeX 2.9/fonts/type1/public/lm/lmr7.pfb><C:/Users/Susy Echeverria
--L/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/lm/lmri10.pfb><C:/Users
+rria-L/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/lm/lmr10.pfb><C:/Us
+ers/Susy Echeverria-L/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/lm/l
+mr12.pfb><C:/Users/Susy Echeverria-L/AppData/Local/Programs/MiKTeX 2.9/fonts/ty
+pe1/public/lm/lmr17.pfb><C:/Users/Susy Echeverria-L/AppData/Local/Programs/MiKT
+eX 2.9/fonts/type1/public/lm/lmr7.pfb><C:/Users/Susy Echeverria-L/AppData/Local
+/Programs/MiKTeX 2.9/fonts/type1/public/lm/lmri10.pfb><C:/Users/Susy Echeverria
+-L/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/lm/lmro10.pfb><C:/Users
 /Susy Echeverria-L/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/lm/lmro
-10.pfb><C:/Users/Susy Echeverria-L/AppData/Local/Programs/MiKTeX 2.9/fonts/type
-1/public/lm/lmro17.pfb><C:/Users/Susy Echeverria-L/AppData/Local/Programs/MiKTe
+17.pfb><C:/Users/Susy Echeverria-L/AppData/Local/Programs/MiKTeX 2.9/fonts/type
+1/public/lm/lmsy10.pfb><C:/Users/Susy Echeverria-L/AppData/Local/Programs/MiKTe
 X 2.9/fonts/type1/public/lm/lmtt10.pfb><C:/Users/Susy Echeverria-L/AppData/Loca
 l/Programs/MiKTeX 2.9/fonts/type1/public/marvosym/marvosym.pfb>
-Output written on CV_susy_english.pdf (5 pages, 285979 bytes).
+Output written on CV_susy_english.pdf (6 pages, 285043 bytes).
 PDF statistics:
- 144 PDF objects out of 1000 (max. 8388607)
- 19 named destinations out of 1000 (max. 500000)
+ 146 PDF objects out of 1000 (max. 8388607)
+ 20 named destinations out of 1000 (max. 500000)
  27765 words of extra memory for PDF output out of 29859 (max. 10000000)
 
