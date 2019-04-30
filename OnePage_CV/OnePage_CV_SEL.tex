@@ -1,0 +1,160 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Twenty Seconds Resume/CV
+% LaTeX Template
+% Version 1.0 (14/7/16)
+%
+% Original author:
+% Carmine Spagnuolo (cspagnuolo@unisa.it) with major modifications by 
+% Vel (vel@LaTeXTemplates.com) and Harsh (harsh.gadgil@gmail.com)
+%
+% License:
+% The MIT License (see included LICENSE file)
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%----------------------------------------------------------------------------------------
+%	PACKAGES AND OTHER DOCUMENT CONFIGURATIONS
+%----------------------------------------------------------------------------------------
+
+\documentclass[letterpaper]{twentysecondcv} % a4paper for A4
+
+
+% Projects text
+\education{
+	\textbf{PhD in Life Science} \\
+	Imperial College London
+	\\
+	The Natural History Museum \\
+	2013 - 2017 | London, UK. 
+	
+	\textbf{MRes Biodiversity Informatics and \\ Genomics} (Distinction) \\
+	Imperial College London \\
+	2012 - 2013 | Silwood Park, Ascot, UK.
+	
+	\textbf{BSc in Biology} (1st class honours) \\
+	Universidad Industrial de Santander \\
+	2004 - 2010 | Bucaramanga, Colombia.
+}
+
+% Command for printing skill overview bubbles
+\newcommand\skills{ 
+	~
+	\smartdiagram[bubble diagram]{
+		\textbf{~~~~Data~~~~}\\\textbf{~~~~Science~~~~},
+		\textbf{Data}\\\textbf{processing},
+		\textbf{~~~~Statistics~~~~},
+		\textbf{Reproducibility},
+		\textbf{Visualisations}
+	}
+}
+
+% Programming skill bars
+\programming{{Python $\textbullet$ HPC cluster scripts $\textbullet$ Shell/ 2}, {git $\textbullet$\large \LaTeX/ 3.5},{GIS $\textbullet$ Advanced statistics/ 4}, {R/ 5}}
+
+
+
+%----------------------------------------------------------------------------------------
+%	 PERSONAL INFORMATION
+%----------------------------------------------------------------------------------------
+% If you don't need one or more of the below, just remove the content leaving the command, e.g. \cvnumberphone{}
+
+\cvname{Susy \\ Echeverr\'ia-L} % Your name
+\cvjobtitle{NSF Postdoctoral associate} % Job
+% title/career
+
+\cvlinkedin{}
+\cvgithub{susyelo}
+\cvnumberphone{(740) 5046838} % Phone number
+\cvsite{} % Personal website
+\cvmail{susyelo@gmail.com} % Email address
+\cvorcid{0000-0002-0038-146X}
+
+%----------------------------------------------------------------------------------------
+
+\begin{document}
+
+\makeprofile % Print the sidebar
+
+%----------------------------------------------------------------------------------------
+%	 EXPERIENCE
+%----------------------------------------------------------------------------------------
+
+\section{Experience}
+
+\begin{twenty} % Environment for a list with descriptions
+\twentyitem
+    	{2018 -}
+		{Present}
+        {Visitor scholar}
+        {\href{https://www.biology.pitt.edu/}{University of Pittsburgh}}
+        {}
+        {\begin{itemize}
+        \item PI: Dr. Justin Kitzes
+        \item Exploring time-series spatial point patterns of ca. 300 plants species to understand and predict extinction risk. 
+        \end{itemize}}
+        \\
+	\twentyitem
+    	{2017 -}
+		{Present}
+        {NSF Postdoctoral Associate}
+        {\href{https://www.kenyon.edu}{Kenyon College}}
+        {}
+        {
+        {\begin{itemize}
+        \item PIs: Prof. Andrew Kerkhoff and Prof. Brian J Enquist
+        \item Researching the consequences of climatic stability and biome age and area effects on seed plant diversity using a great collection of geographic distribution of plants in the New World. 
+        \item Carrying out paleoclimate reconstructions using machine learning methods such as random forest to calibrate biogeographic biomes inferences. 
+       	\item Taught and organized lectures and assignments for the Ecoinformatics course including Introduction to data science R, data managing and processing, data visualization, spatial analysis and reproducibility \url{https://globalecologybiogeography.github.io/Ecoinformatics/}
+    \end{itemize}}
+        }
+    \\   
+     \twentyitem
+   		{2017}
+		{}
+        {Lecturer and demonstrator}
+        {\href{http://www.nhm.ac.uk/}{The Natural History Museum, London, UK}}
+        {}
+        {
+        {\begin{itemize}
+        \item Phylogenetic approaches to studying diversification lecture for the Methods in Macroecology and Macroevolution course of the MSc Taxonomy and biodiversity program
+        \item Demostrator of the practical about Fossils in phylogenetics for the Methods in Macroecology and Macroevolution course of the MSc Taxonomy and biodiversity program
+    \end{itemize}}
+	}
+    \\   
+	\twentyitem
+	{2013}
+	{2017}
+	{Demonstrator}
+	{\href{https://www.imperial.ac.uk/}{Imperial College London}}
+	{}
+	{
+	 {\begin{itemize}
+		\item Demonstrator of the Computational Biostatistics BSc course
+		\item Demonstrator of the Ecology and Evolution BSc course
+		\item Demonstrator of the Biodiversity and Conservation Biology BSc course
+		\item Practicals included Introduction to R, Fundamentals of statistics in R, Phylogeny of mammals and pines, IUCN Red List, Biodiversity among lineages and over time, Delimiting species, Extinction risk patterns and correlates
+		
+	\end{itemize}}
+    	}
+        
+%	%\twentyitem{<dates>}{<title>}{<location>}{<description>}
+\end{twenty}
+
+%----------------------------------------------------------------------------------------
+%	 Publications
+%----------------------------------------------------------------------------------------
+
+\section{Selected publications}
+
+2018 \textbf{Echeverr\'ia-Londo\~no S,} Enquist, BJ, Neves, DM, Violle, C and Kerkhoff, AJ.  Plant functional diversity and the biogeography of biomes in North and South America, Frontiers in Ecology and Evolution, 6(DEC), 219.
+
+2018 \textbf{Echeverr\'ia-Londo\~no S,}  S{\"a}rkinen, T., Fenton, I. S., Knapp, S., \& Purvis, A. Dynamism and context dependency in the diversification of the megadiverse plant genus Solanum L.(Solanaceae). bioRxiv, 348961.
+
+2016 \textbf{Echeverr\'ia-Londo\~no S,} Newbold, T., Hudson, L. N., Hill, S. L., Contu, S., Lysenko, I., ... \& Purvis, A. Modelling and projecting the response of Colombian biodiversity to land-use change. Diversity and Distributions, 22: 1099-1111.
+
+2015 Newbold, T., Hudson, L. N., Hill, S. L., Contu, S., Lysenko, I., Senior, R. A., Bennet D. J., Choimes A., Collen, B., Day, J., De Palma, A., Diaz, S., \textbf{Echeverr\'ia-Londo\~no S,} ... \& Purvis, A. Global effects of land use on local terrestrial biodiversity. Nature, 520(7545), 45-50.
+
+2011 \textbf{Echeverr\'ia-Londo\~no, S }\& Miranda-Esquivel, D. R. MartiTracks: A geometrical approach for identifying geographical patterns of distribution. PLoS ONE 6(4): e18460.
+
+
+\end{document}
