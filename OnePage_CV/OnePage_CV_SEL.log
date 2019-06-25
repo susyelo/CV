@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.14159265-2.6-0.99999 (MiKTeX 2.9.6600 64-bit) (preloaded format=xelatex 2019.4.29)  18 JUN 2019 12:32
+This is XeTeX, Version 3.14159265-2.6-0.99999 (MiKTeX 2.9.6600 64-bit) (preloaded format=xelatex 2019.4.29)  25 JUN 2019 11:45
 entering extended mode
 **./OnePage_CV_SEL.tex
 (OnePage_CV_SEL.tex
@@ -1508,6 +1508,14 @@ Requested font "FontAwesome/OT" at 20.74pt
  -> C:/Users/Susy Echeverria-L/AppData/Local/Programs/MiKTeX 2.9/fonts/opentype
 /public/fontawesome/FontAwesome.otf
 
+Overfull \hbox (7.28821pt too wide) in paragraph at lines 76--76
+[]$[]$| 
+ []
+
+
+LaTeX Font Warning: Command \huge invalid in math mode on input line 76.
+
+
 Overfull \hbox (9.40044pt too wide) in paragraph at lines 76--76
 []$[]$| 
  []
@@ -1639,29 +1647,47 @@ Requested font "[lmmono10-regular]:" at 10.0pt
  -> C:/Users/Susy Echeverria-L/AppData/Local/Programs/MiKTeX 2.9/fonts/opentype
 /public/lm/lmmono10-regular.otf
 
-Underfull \hbox (badness 2165) in paragraph at lines 109--109
-\TU/ClearSans(0)/m/n/10 producibility; []$[][][][][] [] [] [] [][][][][][][][][
-][][][][][][][][][][][][][][][][] [] [][][][][][] [] [][] []
+Underfull \hbox (badness 2096) in paragraph at lines 111--111
+[]\TU/ClearSans(0)/m/n/10 Teach and organise lectures and assignments for the E
+coin-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 84--142
+Underfull \hbox (badness 6284) in paragraph at lines 111--111
+\TU/ClearSans(0)/m/n/10 formatics course which include topics such as: Introduc
+-
+ []
+
+
+Underfull \hbox (badness 1655) in paragraph at lines 111--111
+\TU/ClearSans(0)/m/n/10 tion to data science R, data managing and processing, d
+ata
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 111--111
+\TU/ClearSans(0)/m/n/10 visualization, spatial analysis and reproducibility []$
+[][][][][] []
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 84--144
 
  []
 
 [1
 
 ]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 160.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 160.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 162.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 162.
  (OnePage_CV_SEL.aux)
-Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 160.
-Package atveryend Info: Empty hook `AtEndAfterFileList' on input line 160.
+Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 162.
+Package atveryend Info: Empty hook `AtEndAfterFileList' on input line 162.
  ) 
 Here is how much of TeX's memory you used:
  35704 strings out of 427834
  684101 string characters out of 3146224
- 820706 words of memory out of 3000000
+ 821706 words of memory out of 3000000
  39225 multiletter control sequences out of 15000+200000
  535690 words of font info for 66 fonts, out of 3000000 for 9000
  1328 hyphenation exceptions out of 8191
