@@ -1,42 +1,28 @@
-	%% start of file `template_en.tex'.
-%% Copyright 2007 Xavier Danaux (xdanaux@gmail.com).
-%
-% This work may be distributed and/or modified under the
-% conditions of the LaTeX Project Public License version 1.3c,
-% available at http://www.latex-project.org/lppl/.
-
-
 \documentclass[11pt,a4paper]{moderncv}
 \usepackage[latin1]{inputenc}
 \usepackage{url}
 
 
-
 % moderncv themes
-%\moderncvtheme[blue]{casual}                 % optional argument are 'blue' (default), 'orange', 'red', 'green', 'grey' and 'roman' (for roman fonts, instead of sans serif fonts)
-\moderncvtheme[green]{classic}                % idem
+%\moderncvtheme[blue]{casual}    		% optional argument are 'blue' (default), 'orange', 'red', 'green', 'grey' and 'roman' (for roman fonts, instead of sans serif fonts)
+\moderncvtheme[green]{classic}                	% idem
 
 % character encoding
-%\usepackage[utf8]{inputenc}                   % replace by the encoding you are using
+%\usepackage[utf8]{inputenc}                   	% replace by the encoding you are using
 
 % adjust the page margins
-\usepackage[scale=0.8]{geometry}
-\recomputelengths                             % required when changes are made to page layout lengths
+\usepackage[right=1.7cm,left=1.7cm,textheight=24.5cm]{geometry}
+\recomputelengths                             		% required when changes are made to page layout lengths
+\setlength{\hintscolumnwidth}{2.5cm}
 
 % personal data
 \firstname{\huge Susy}
-\small \familyname{\huge Echeverr\'ia-Londo\~no, PhD. }
-\title{NSF Postdoctoral Associate}               % optional, remove the line if not wanted
-\address{\hspace{-1in}Kenyon College}{Gambier OH, USA}{}    % optional, remove the line if not wanted
-\mobile{+1(740)5046838}                    % optional, remove the line if not wanted
-%\phone{+5776348129}                      % optional, remove the line if not wanted
-%\fax{312 996 1491}
-\social[github]{https://github.com/susyelo}                      % optional, remove the line if not wanted
-\email{susyelo@gmail.com}
-                    % optional, remove the line if not wanted
-% \extrainfo{echeverrialondono1@kenyon.edu} % optional, remove the line if not wanted
-%\photo[64pt]{./cv.jpg}                         % '64pt' is the height the picture must be resized to and 'picture' is the name of the picture file; optional, remove the line if not wanted
-%\quote{"No man should escape our universities without knowing how little he knows." -- J. Robert Oppenheimer}                 % optional, remove the line if not wanted
+\familyname{\huge Echeverr\'ia-Londo\~no, PhD }
+\title{NSF Postdoctoral Associate\vspace{0.1cm} \newline Macroecology and Macroevolution\vspace{-0.2cm}}	% optional, remove the line if not wanted
+\address{Kenyon College}{Gambier OH, USA\vspace{0.1cm}}{}    	% optional, remove the line if not wanted
+\mobile{+1 (740) 504 6838}                    							% optional, remove the line if not wanted
+\email{susyelo@gmail.com}									% optional, remove the line if not wanted
+\social[github]{https://github.com/susyelo}                      			% optional, remove the line if not wanted
 
 %\nopagenumbers{}                             % uncomment to suppress automatic page numbering for CVs longer than one page
 
@@ -56,90 +42,90 @@
 \begin{document}
 \maketitle
 
+
 \section{SUMMARY}
 
-I am an early career researcher focusing on the study of large-scale patterns of biodiversity, and the ecological and evolutionary processes that shaped them. Throughout my career, I have gained extensive experience in the field of data science including data processing and visualisation, advanced statistical and spatial analysis. In my work, I particularly enjoy exploring and analysing biological data through visualisations tools.
-
-\small
-\section{COMPUTER SKILLS}
-\cvline{OS}{Linux/Unix, Windows, OS X}{}{}
-\cvline{Programming}{Proficient R, Basic Python, Basic C++, shell, basic HPC cluster scripts}{}{}
-\cvline{Data Science}{Data cleaning, processing and visualization, proficient GIS skills in R and ArcGIS, Advanced statistical analysis (e.g., Generalized Linear Mixed Models, Random Forests)}{}{}
-\cvline{Version control}{Git}{}{}
-\cvline{Typography}{\LaTeX, OpenOffice/LibreOffice}{}{}
-%\cvcomputer{Phylogeny software}{POY, TNT, Nona, Winclada, PhyML, MrBayes, Bioedit, PAUP, R, BAMM}{}{}
-%\cvcomputer{Biogeography software}{BioGeoBears, NDM, VNDM, Component 1.5, Component 2, DIVA, TREEFITTER, Martitracks}{}{}
+I am a researcher focusing on the study of large-scale patterns of biodiversity, and the ecological and evolutionary processes that shape them. Throughout my career, I have gained extensive experience in data science, including data processing, data visualisation and advanced statistical and spatial analysis. I particularly enjoy exploring and analysing biological data through visualisation tools.
 
 
+\vspace{0.25cm}
+\section{PROFESSIONAL EXPERIENCE}
 
-\section{EMPLOYMENT}
+\cventry{2018--present}{Visiting scholar}{University of Pittsburgh, Biological Sciences}{}{USA}{}
+\cvline{}{PI: Prof. Justin Kitzes.}
+\cvline{}{Exploring and analysing time-series spatial points patterns from ca. 300 plant species to predict extinction risks.}
 
-\cventry{2018-- }{Visitor scholar}{University of Pittsburgh}{\textit{Department of Biological Sciences}}{Pittsburgh, PA 15260, United States of America}{}
-\cvline{}{PI: Prof. Justin Kitzes}
-\cvline{}{Explore and analyse time-series spatial points patterns from ca. 300 plant species to predict extinction risks}
-
-\cventry{2017-- }{NSF Postdoctoral Associate}{Kenyon College}{\textit{Department of Biology}}{Gambier, OH 43022, United States of America}{}
-\cvline{}{PIs: Prof. Andrew Kerkhoff and Prof. Brian J. Enquist}
+\cventry{2017--present}{NSF Postdoctoral Associate}{Kenyon College, Biology}{}{Gambier, USA}{}
+\cvline{}{PIs: Prof. Andrew Kerkhoff and Prof. Brian J. Enquist.}
 \cvline{}{%
 	\begin{itemize}
-		\item Explore and analyse the distribution of ca. 85000 plant species including approximately 9 million geographic points.
-		\item Research the consequences of habitat stability on current patterns of plant diversity using the distribution and phylogenetic relationships of ca. 24000 plant species.
-		\item Carry out paleohabitat reconstructions using machine learning methods
-		\item Co-teaching of the BSc course ``Global Ecology and Biogeography''
-		\item Teach and organise lectures and assignments for the Ecoinformatics course which include topics such as:
-		Introduction to data science R, data managing and processing, data visualization, spatial analysis and reproducibility \url{https://globalecologybiogeography.github.io/Ecoinformatics/}
-		\end{itemize}
-	}
-\cventry{2017}{Lecturer and demonstrator}{MSc Taxonomy and Biodiversity, Methods in Macroecology and Macroevolution course, Natural History Museum (NHM) and Imperial College London}{London}{UK}{Phylogenetic approaches to studying diversification; Fossils in phylogenetics}
+		\item Exploring and analysing the distribution of ca. 85000 plant species, including approximately 9 million geographic points.
+		\item Researching the consequences of habitat stability on current patterns of plant diversity using distribution and phylogenetic relations of ca. 24000 plant species.
+		\item Carrying out paleohabitat reconstructions using machine learning methods.
+		\item Co-taught the BSc course ``Global Ecology and Biogeography''.
+		\item Taught and organised lectures and assignments for the undergraduate ecoinformatics course, which include topics such as ``Introduction to data science R'', ``Data managing and processing'', ``Data visualisation'', ``Spatial analysis and reproducibility'' (see \href{https://globalecologybiogeography.github.io/Ecoinformatics/}{https://globalecologybiogeography.github.io/Ecoinformatics/}). \vspace{-0.5cm}
+		\end{itemize}}
+\cventry{2017}{Lecturer and demonstrator}{Natural History Museum, Imperial College London}{}{UK}{}
+\cvline{}{Lectured and demonstrated for the course ``Methods in Macroecology and Macroevolution'' (MSc ``Taxonomy and Biodiversity''), including topics such as ``Phylogenetic approaches to studying diversification'' and ``Fossils in phylogenetics''.}
 
-\cventry{2013--2016}{Demonstrator}{Computational Biostatistics BSc course, Ecology and Evolution BSc course, Biodiversity and Conservation Biology BSc course, Imperial College London}{London}{UK}{Introduction to R, Fundamentals of statistics in R, Phylogeny of mammals and pines, IUCN Red List, Biodiversity among lineages and over time, Delimiting species, Extinction risk patterns and correlates.}
+\cventry{2013--2016}{Demonstrator}{Imperial College London}{}{UK}{}
+\cvline{}{Demonstrated for the BSc courses ``Computational Biostatistics'', ``Ecology and Evolution'', ``Biodiversity and Conservation Biology'', ``Introduction to R'', ``Fundamentals of Statistics in R'', including topics such as ``Phylogeny of mammals and pines'', ``IUCN red list'', ``Biodiversity among lineages and over time'', ``Delimiting species'' and ``Extinction risk patterns and correlates''.}
 
-%\cventry{2015}{Demonstrating}{Ecology and Evolution BSc course, Imperial College London}{London}{UK}{Phylogeny of mammals and pines}
-%
-%\cventry{2014}{Demonstrating}{Biodiversity and Conservation Biology BSc course, Imperial College London}{London}{UK}{IUCN Red List}
-%
-%\cventry{2013}{Demonstrating}{Biodiversity and Conservation Biology BSc course, Imperial College London}{London}{UK}{R basics, Biodiversity among lineages and over time practical, Delimiting species, Extinction risk patterns and correlates}
+\cventry{2011--2012}{Science teacher}{New Cambridge school, Gimnasio pontevedra, La quinta del puente}{Bucaramanga}{Colombia}{}
+\cvline{}{Taught biology for high school, middle school and primary school students.}
 
-\cventry{2011-2012}{Science teacher}{New Cambridge School, Gimnasio pontevedra school, and La Quinta del puente school}{Bucaramanga}{Colombia}{}
-
-%\cventry{2012}{Science teacher}{Gimnasio pontevedra school}{Bucaramanga}{Colombia}{}
-
-%\cventry{2011}{Head of science department and teacher}{La Quinta del puente school}{Floridablanca}{Colombia}{}
-
-\cventry{2008--2010}{Teaching Assistant and demonstrator}{Systematics BSc course, Universidad Industrial de Santander; Bioinformatics MSc course, Universidad Industrial de Santander}{Bucaramanga}{Colombia}{}
-
-% arguments 3 to 6 are optional
-%\cventry{2009}{Teaching Assistant}{Bioinformatics MSc course, Universidad Industrial de Santander}{Bucaramanga}{Colombia}{}
-%Masters of Basic Biomedical Sciences Program                       % arguments 3 to 6 are optional
-%\subsection{Miscellaneous}
-%\cventry{year--year}{Job title}{Employer}{City}{}{Description line 1\newline{}Description line 2}% arguments 3 to 6 are optional
+\cventry{2008--2010}{Teaching assistant}{Universidad Industrial de Santander}{}{Bucaramanga, Colombia}{}
+\cvline{}{Assisted teaching for the course BSc ``Systematics'' and MSc course ``Bioinformatics''.}
 
 
+\vspace{0.25cm}
 \section{EDUCATION}
 
-\cventry{2013--2017}{PhD in Life Science}{Imperial College London}{\textit{Natural History Museum}}{London, United Kingdom}{}
+\cventry{2013--2017}{PhD in Life Science}{Imperial College London, Natural History Museum}{}{London, UK}{}
 
-\cvline{}{\textbf{Thesis:} Diversification patterns of \textit{Solanum} L. (Solanaceae), plant macroecology and responses to land-use change.}
-\cvline{}{Supervisor: Prof. Andy Purvis; Co-supervisor Dr Sandra Knapp}
+\cvline{}{Thesis: Diversification patterns of \textit{Solanum} L. (Solanaceae), plant macroecology and responses to land-use change.}
+\cvline{}{Supervisor: Prof. Andy Purvis. Co-supervisor Dr Sandra Knapp.}
 \cvline{}{%
 	\begin{itemize}
 		\item Researched the dynamics of diversification of the megadiverse plant genus \textit{Solanum} using a collation of geographical, genetic and taxonomic data along with phylogenetic comparative methods.
 		\item Studied large-scale patterns of plant diversity and their responses to land-use change from data of a global collation of local field-based studies.
-		\item Carried out large-scale evolutionary modelling exercise on a high-performance Linux cluster.
+		\item Carried out large-scale evolutionary modelling exercise on an HPC Linux cluster. \vspace{-0.5cm}
 \end{itemize}}
 
 
-\cventry{2012--2013}{MRes (Distinction), Biodiversity, Informatics and Genomics}{Imperial College London}{Silwood Park}{United Kingdom}{}
+\cventry{2012--2013}{MRes in Biodiversity, Informatics and Genomics \normalfont{(with distinction)}}{Imperial College London}{}{Silwood Park, UK}{}
+\cvline{}{Thesis: Modelling and projecting response of Colombian biodiversity to land-use change.}
+\cvline{}{Supervisor: Prof. Andy Purvis.}
 
-%\cvline{}{\textbf{Thesis:} Modelling and projecting response of Colombian biodiversity to land-use change}
-%\cvline{}{Supervisor: Prof. Andy Purvis}
-
-\cventry{2004--2010}{BSc (1st class honours) in Biology}{Universidad Industrial de Santander}{Bucaramanga}{Colombia}{}
+\cventry{2004--2010}{BSc in Biology \normalfont{(with 1st class honours)}}{Universidad Industrial de Santander}{}{Bucaramanga, Colombia}{}
 %\cvline{}{Grade point average, 4.2/5.0}
 %\cvline{}{\textbf{Thesis:} A geometrical approach for identifying geographical patterns of distribution.}
 %\cvline{}{Supervisor: Dr Daniel Rafael Miranda-Esquivel}
 
 
+\vspace{0.25cm}
+\section{COMPUTER SKILLS}
+\cvline{Programming}{R (advanced)}{}{}
+\cvline{}{Python (intermediate)}{}{}
+\cvline{}{C++, shell, HPC cluster scripts (basic)}{}{}
+\cvline{Data science}{Cleaning, processing, visualisation, statistical analysis (advanced)}
+\cvline{}{GIS in R and ArcGIS (intermediate)}{}{}
+\cvline{Version control}{Git}{}{}
+\cvline{OS}{Linux/Unix, OS X, Windows}{}{}
+\cvline{Typography}{\LaTeX, OpenOffice/LibreOffice}{}{}
+%\cvcomputer{Phylogeny software}{POY, TNT, Nona, Winclada, PhyML, MrBayes, Bioedit, PAUP, R, BAMM}{}{}
+%\cvcomputer{Biogeography software}{BioGeoBears, NDM, VNDM, Component 1.5, Component 2, DIVA, TREEFITTER, Martitracks}{}{}
+
+
+\vspace{0.25cm}
+\section{LANGUAGES}
+
+\cvline{Spanish}{Native}
+\cvline{English}{Full professional}
+\cvline{Italian}{Basic}
+
+
+\clearpage
 \section{PUBLICATIONS}
 
 %\cvline{In prep}{\textbf{Echeverr\'ia-Londo\~no S.}, Neves, DM. , Kerkhoff, AJ., Enquist, BJ. Evolutionary biome shifts of angiosperms in the New World.}
@@ -148,95 +134,93 @@ I am an early career researcher focusing on the study of large-scale patterns of
 
 %\cvline{In prep}{\textbf{Echeverr\'ia-Londo\~no S.,} De Palma, A., Contu, S., Hill, S. L., Lysenko, I., Knapp, S., and Purvis, A. Plant species' responses to land-use change: A global perspective.}
 
-\cvline{2018}{\textbf{Echeverr\'ia-Londo\~no S.,} Enquist, BJ, Neves, DM, Violle, C and Kerkhoff, AJ.  Plant functional diversity and the biogeography of biomes in North and South America, Frontiers in Ecology and Evolution, 6(DEC), 219.}
+\cvline{2018}{\textbf{Echeverr\'ia-Londo\~no, S.,} Enquist. B. J., Neves, D. M., Violle, C. and Kerkhoff, A. J. Plant functional diversity and the biogeography of biomes in North and South America, \textit{Frontiers in Ecology and Evolution}, 6(DEC), 219.}
 
-\cvline{2018}{\textbf{Echeverr\'ia-Londo\~no S,.}  S{\"a}rkinen, T., Fenton, I. S., Knapp, S., \& Purvis, A. Dynamism and context dependency in the diversification of the megadiverse plant genus Solanum L.(Solanaceae). bioRxiv, 348961.}
+\cvline{2018}{\textbf{Echeverr\'ia-Londo\~no, S,.}  S{\"a}rkinen, T., Fenton, I. S., Knapp, S. and Purvis, A. Dynamism and context dependency in the diversification of the megadiverse plant genus Solanum L. (Solanaceae), \textit{bioRxiv ref.: 348961}.}
 
-\cvline{2017}{Isaacs, P., \textbf{Echeverr\'ia-Londo\~no, S.,} Urbina, N and Purvis, A. Species Composition and Changes in Land Use: considerations under climatic change scenarios. Moreno, L. A., Andrade, G. I. and Ru\'iz-Contreras, L. F. (Ed.)  In \textit{Biodiversity 2016. Status and Trends of Colombian Continental Biodiversity}. Instituto de Investigaci\'on de Recursos Biol\'ogicos Alexander von Humboldt, 106 p.}
+\cvline{2017}{Isaacs, P., \textbf{Echeverr\'ia-Londo\~no, S.,} Urbina, N. and Purvis, A. Species composition and changes in land use: considerations under climatic change scenarios. Moreno, L. A., Andrade, G. I. and Ru\'iz-Contreras, L. F. (Editors). In \textit{Biodiversity 2016. Status and Trends of Colombian Continental Biodiversity}, Instituto de Investigaci\'on de Recursos Biol\'ogicos Alexander von Humboldt, 106 p.}
 
-\cvline{2017}{Hudson, L. N., Newbold, T., Contu, S., Hill, S. L., Lysenko, I., De Palma, A., Diaz, S., \textbf{Echeverr\'ia-Londo\~no S,.} ... \& Purvis, A. The database of the PREDICTS (Projecting responses of ecological diversity in changing terrestrial systems) project. Ecology and Evolution, 7(1), 145-188.}
+\cvline{2017}{Hudson, L. N., Newbold, T., Contu, S., Hill, S. L., Lysenko, I., De Palma, A., Diaz, S., \textbf{Echeverr\'ia-Londo\~no, S.,} \dots and Purvis, A. The database of the PREDICTS (Projecting Responses of Ecological Diversity in Changing Terrestrial Systems) project, \textit{Ecology and Evolution}, 7(1), 145--188.}
 
-\cvline{2016}{\textbf{Echeverr\'ia-Londo\~no S.,} Newbold, T., Hudson, L. N., Hill, S. L., Contu, S., Lysenko, I., ... \& Purvis, A. Modelling and projecting the response of Colombian biodiversity to land-use change. Diversity and Distributions, 22: 1099-1111, doi:10.1111/ddi.12478.}
+\cvline{2016}{\textbf{Echeverr\'ia-Londo\~no, S.,} Newbold, T., Hudson, L. N., Hill, S. L., Contu, S., Lysenko, I., \dots and Purvis, A. Modelling and projecting the response of Colombian biodiversity to land-use change, \textit{Diversity and Distributions}, 22, 1099--1111.}
 
-\cvline{2015}{Newbold, T., Hudson, L. N., Hill, S. L., Contu, S., Lysenko, I., Senior, R. A., Bennet D. J., Choimes A., Collen, B., Day, J., De Palma, A., Diaz, S., \textbf{Echeverr\'ia-Londo\~no S} ... \& Purvis, A. Global effects of land use on local terrestrial biodiversity. Nature, 520(7545), 45-50.}
+\cvline{2015}{Newbold, T., Hudson, L. N., Hill, S. L., Contu, S., Lysenko, I., Senior, R. A., Bennet D. J., Choimes A., Collen, B., Day, J., De Palma, A., Diaz, S., \textbf{Echeverr\'ia-Londo\~no, S.,} \dots and Purvis, A. Global effects of land use on local terrestrial biodiversity, \textit{Nature}, 520(7545), 45--50.}
 
-\cvline{2014}{Newbold, T., Hudson, L. N., Contu, S.,  Hill, S. L., Lysenko, I., De Palma, A., Phillips, H., Senior, R. A., Bennet D. J., Booth, H., Choimes A., Correia, D. L. P., Day, J, \textbf{Echeverr\'ia-Londo\~no S} ... \& Purvis, A. The PREDICTS database: a global database of how local terrestrial biodiversity responds to human impacts. Ecology and evolution 4.24: 4701-4735. }
+\cvline{2014}{Newbold, T., Hudson, L. N., Contu, S.,  Hill, S. L., Lysenko, I., De Palma, A., Phillips, H., Senior, R. A., Bennet D. J., Booth, H., Choimes, A., Correia, D. L. P., Day, J., \textbf{Echeverr\'ia-Londo\~no, S.,} \dots and Purvis, A. The PREDICTS database: a global database of how local terrestrial biodiversity responds to human impacts, \textit{Ecology and Evolution}, 4(24), 4701--4735. }
 
-\cvline{2011}{\textbf{Echeverr\'ia-Londo\~no, S.}\& Miranda-Esquivel, D. R. MartiTracks: A geometrical approach for identifying geographical patterns of distribution. PLoS ONE 6(4): e18460. doi:10.1371/journal.pone.0018460 \url{http://dx.plos.org/10.1371/journal.pone.0018460}.}
+\cvline{2011}{\textbf{Echeverr\'ia-Londo\~no, S.} and Miranda-Esquivel, D. R. MartiTracks: A geometrical approach for identifying geographical patterns of distribution, \textit{PLoS ONE}, 6(4), e18460.}
 
-\cvline{2010}{Miranda-Esquivel, D. R, Morales-Guerrero, A. M \& \textbf{Echeverr\'ia-Londo\~no S.} \textquestiondown Cu\'antos somos? y \textquestiondown C\'omo nos cuantificamos?. Book chapter. Evoluci\'on "Historia de la Vida". Asociaci\'on Colombiana para el avance de la Ciencia ACAC.}
-
-
-\section{INTERNATIONAL CONFERENCE PRESENTATIONS}
-
-\cvline{2018}{\textbf{Presentation:} Echeverr\'ia-Londo\~no S., et al. Explosive diversification of \textit{Solanum} L (Solanaceae) in the old world. \textbf{Three Rivers Evolution meeting}, Pittsburgh, Pennsylvania, USA}
-
-\cvline{2018}{\textbf{Poster:} Echeverr\'ia-Londo\~no S., et al. Plant functional diversity and the biogeography of biomes in North and South America. \textbf{Three Rivers Evolution meeting}, Pittsburgh, Pennsylvania, USA}
-
-\cvline{2018}{\textbf{Poster:} Echeverr\'ia-Londo\~no S., et al. Plant functional diversity and the biogeography of biomes in North and South America. \textbf{Botany 2018}, Rochester, Minnesota, USA}
-
-\cvline{2016}{\textbf{VVIP Presentation:} Echeverr\'ia-Londo\~no S., et al. Modelling and projecting the response of Colombian biodiversity to land-use change. \textbf{State visit by the President of Colombia, Juan Manuel Santos, to the UK and the Prince of Wales}. Natural History Museum, London, United Kingdom}
-
-\cvline{2016}{\textbf{Presentation:} Echeverr\'ia-Londo\~no S., et al. Modelling and projecting the response of Colombian biodiversity to land-use change. \textbf{First symposium of Colombian research in the UK}. Imperial College London, London, United Kingdom}
-
-\cvline{2016}{\textbf{Presentation:} Echeverr\'ia-Londo\~no S., Knapp S. \& Purvis A. Explosive diversification of \textit{Solanum} L (Solanaceae) in the old world. \textbf{BES macroecology meeting 2016}. Oxford University, Oxford, United Kingdom}
-
-\cvline{2016}{\textbf{Presentation:} Echeverr\'ia-Londo\~no S., Knapp S. \& Purvis A. Diversification patterns of genus \textit{Solanum}. \textbf{NHM students conference 2016}. Natural History Museum, London, United Kingdom}
-
-\cvline{2015}{\textbf{Poster:} Echeverr\'ia-Londo\~no S., Knapp S. \& Purvis A. Explosive diversification of \textit{Solanum} L (Solanaceae) in the old world. \textbf{Systematics: The Science that Underpins Biology. The Systematic Association Biennal meeting}, Oxford University, Oxford, United Kingdom}
-
-\cvline{2015}{\textbf{Presentation:} Echeverr\'ia-Londo\~no S., Knapp S. \& Purvis A. Explosive diversification of \textit{Solanum} L (Solanaceae) in the old world. \textbf{EU Macroecology meeting}. Zoological museum of Copenhagen, Copenhagen, Denmark}
-
-\cvline{2015}{\textbf{Poster:} Echeverr\'ia-Londo\~no S., Knapp S \& Purvis A. Diversification patterns of \textit{Solanum}. \textbf{NHM students conference 2015}. Natural History Museum, London, United Kingdom}
-
-\cvline{2014}{\textbf{Poster:} Echeverr\'ia-Londo\~no S., Knapp S \& Purvis A. Diversification patterns of \textit{Solanum}. \textbf{The London Evolutionary Research Network (LERN)}. Queen Mary University, London, United Kingdom}
-
-\cvline{2014}{\textbf{Poster:} Echeverr\'ia-Londo\~no S., Knapp S \& Purvis A. Patterns of lineage diversification in the genus Solanum L. \textbf{Plants Radiation meeting}. Institute of Systematic Botany, University of Z\"urich, Switzerland}
-
-\cvline{2013}{\textbf{Presentation:} Echeverr\'ia-Londo\~no S., \textit{et al.,} Modelling and projecting the responses of Colombian biodiversity to human impacts. \textbf{11th INTECOL Conference, Ecology}, London, United Kingdom}
-
-\cvline{2010}{\textbf{Presentation:} Echeverr\'ia-Londo\~no S \& Miranda-Esquivel D. M. Panbiogeograf\'ia cuantitativa: un acercamiento geom\'etrico. \textbf{III Congreso Colombiano de Zoolog\'ia.} Medell\'in, Colombia}
-
-\cvline{2009}{\textbf{Presentation:} Miranda-Esquivel D. M, Echeverr\'ia-Londo\~no S. \& Morales-Guerrero A. M. Todas las secuencias son iguales, pero unas son mas iguales que otras. \textbf{III Simposio red colombiana de Biolog\'ia Evolutiva.-Colevol-} Cali, Colombia}
+\cvline{2010}{Miranda-Esquivel, D. R., Morales-Guerrero, A. M. and \textbf{Echeverr\'ia-Londo\~no, S.} \textquestiondown Cu\'antos somos? y \textquestiondown C\'omo nos cuantificamos? In \textit{Evoluci\'on ``Historia de la Vida". Asociaci\'on Colombiana para el avance de la Ciencia ACAC.}}
 
 
+\vspace{0.25cm}
+\section{PRESENTATIONS AND POSTERS}
+
+\cvline{2018}{\textbf{Presentation}. Echeverr\'ia-Londo\~no, S., et al. Explosive diversification of \textit{Solanum} L (Solanaceae) in the old world, \textit{Three Rivers Evolution meeting}, Pittsburgh, USA.}
+
+\cvline{2018}{\textbf{Poster}. Echeverr\'ia-Londo\~no, S., et al. Plant functional diversity and the biogeography of biomes in North and South America, \textit{Three Rivers Evolution meeting}, Pittsburgh, USA.}
+
+\cvline{2018}{\textbf{Poster}. Echeverr\'ia-Londo\~no, S., et al. Plant functional diversity and the biogeography of biomes in North and South America, \textit{Botany 2018}, Rochester (MN), USA}
+
+\cvline{2016}{\textbf{VVIP presentation}. Echeverr\'ia-Londo\~no, S., et al. Modelling and projecting the response of Colombian biodiversity to land-use change, \textit{State visit by the President of Colombia, Juan Manuel Santos, to the UK and the Prince of Wales}, Natural History Museum, London, UK}
+
+\cvline{2016}{\textbf{Presentation}. Echeverr\'ia-Londo\~no, S., et al. Modelling and projecting the response of Colombian biodiversity to land-use change, \textit{First symposium of Colombian research in the UK}, Imperial College London, UK.}
+
+\cvline{2016}{\textbf{Presentation}. Echeverr\'ia-Londo\~no, S., Knapp, S. and Purvis, A. Explosive diversification of \textit{Solanum} L (Solanaceae) in the old world, \textit{BES macroecology meeting 2016}, University of Oxford, UK.}
+
+\cvline{2016}{\textbf{Presentation}. Echeverr\'ia-Londo\~no, S., Knapp, S. and Purvis, A. Diversification patterns of genus \textit{Solanum}, \textit{NHM students conference}, Natural History Museum, London, UK.}
+
+\cvline{2015}{\textbf{Poster}. Echeverr\'ia-Londo\~no, S., Knapp, S. and Purvis, A. Explosive diversification of \textit{Solanum} L (Solanaceae) in the old world, \textit{Systematics: The Science that Underpins Biology. The Systematic Association Biennal meeting}, University of Oxford, UK.}
+
+\cvline{2015}{\textbf{Presentation}. Echeverr\'ia-Londo\~no, S., Knapp, S. and Purvis, A. Explosive diversification of \textit{Solanum} L (Solanaceae) in the old world, \textit{EU Macroecology meeting}, Zoological museum of Copenhagen, Denmark.}
+
+\cvline{2015}{\textbf{Poster}. Echeverr\'ia-Londo\~no, S., Knapp, S. and Purvis, A. Diversification patterns of \textit{Solanum}, \textit{NHM students conference 2015}, Natural History Museum, London, UK.}
+
+\cvline{2014}{\textbf{Poster}. Echeverr\'ia-Londo\~no, S., Knapp, S. and Purvis, A. Diversification patterns of \textit{Solanum}, \textit{The London Evolutionary Research Network (LERN)}, Queen Mary University, London, UK.}
+
+\cvline{2014}{\textbf{Poster}. Echeverr\'ia-Londo\~no, S., Knapp, S. and Purvis, A. Patterns of lineage diversification in the genus Solanum L., \textit{Plants Radiation meeting}, Institute of Systematic Botany, University of Z\"urich, Switzerland.}
+
+\cvline{2013}{\textbf{Presentation}. Echeverr\'ia-Londo\~no, S., et al. Modelling and projecting the responses of Colombian biodiversity to human impacts, \textit{11th INTECOL conference}, London, UK.}
+
+\cvline{2010}{\textbf{Presentation}. Echeverr\'ia-Londo\~no, S. and Miranda-Esquivel, D. M. Panbiogeograf\'ia cuantitativa: un acercamiento geom\'etrico, \textit{III Congreso Colombiano de Zoolog\'ia}, Medell\'in, Colombia.}
+
+\cvline{2009}{\textbf{Presentation}. Miranda-Esquivel, D. M., Echeverr\'ia-Londo\~no, S. and Morales-Guerrero, A. M. Todas las secuencias son iguales, pero unas son mas iguales que otras, \textit{III Simposio red colombiana de Biolog\'ia Evolutiva (Colevol)}, Cali, Colombia.}
+
+
+\vspace{0.25cm}
 \section{INVITED SEMINARS}
 
-\cvline{2018}{Ecology and Evolution seminars, Department of Biological Sciences, University of Pittsburgh, USA.}
+\cvline{2018}{Ecology and Evolution seminars, \textit{University of Pittsburgh, Biological Sciences}, USA.}
 
-\cvline{2017}{Department of Biology seminars, Kenyon College, USA.}
+\cvline{2017}{Monthly seminars, \textit{Department of Biology, Kenyon College}, Gambier, USA.}
 
-\cvline{2017}{Ecosystems and Tropical Forest group lab seminar, School of Geography and the Environment, University of Oxford, UK.}
+\cvline{2017}{Ecosystems and Tropical Forest group lab seminar, \textit{School of Geography and the Environment, University of Oxford}, UK.}
 
-\cvline{2015}{Ecology and Evolution seminar, Royal Botanic Garden Edinburgh, UK.}
-
-
-\section{AWARDS AND RECOGNITIONS}
-
-\cvline{2018}{NSF grant fund ``RCN-UBE Incubator: The Biological and Environmental Data Education Network'', \$ 72,361}
-
-\cvline{2016}{Selected to present research to the (Nobel Peace Prize winning) President of Colombia and His Royal Highness the Prince of Wales. Natural History Museum, London, UK}
-
-\cvline{2013}{Distinction in MRes in Biodiversity Informatics and Genomics. Imperial College London. Silwood Park Campus, UK}
-
-\cvline{2004--2009}{Academic Stimuli. First place (Highest GPA) in I, II, IV, IX semester. Academic program of Biology. Universidad Industrial de Santander, Bucaramanga, Colombia}
-
-\section{RESEARCH SCHOLARSHIPS}
-
-\cvline{2012-2016}{Postgraduate scholarship. Administrative Department of Science, Technology and Innovation  of Colombia (Colciencias). $\pounds$122,000}
-\cvline{2013}{Training and travel grant. British Ecology Society (BES): $\pounds$300}
-\cvline{2013}{Bursary. MRes in Biodiversity Informatics and Genomics. Imperial College London. Silwood Park Campus: $\pounds$1,000}
+\cvline{2015}{Ecology and Evolution seminar, \textit{Royal Botanic Garden}, Edinburgh, UK.}
 
 
-%\section{TEACHING EXPERIENCE}
+\vspace{0.25cm}
+\section{SCHOLARSHIPS, AWARDS AND RECOGNITIONS}
 
-%\cventry{2012-2013}{PREDICTS team member}{Imperial College London}{Silwood park}{United Kingdom}{Projecting Responses of Ecological Diversity In Changing Terrestrial Systems (PREDICTS) project \url{http://www.predicts.org.uk/team.html}}
+\cvline{2018}{NSF grant fund, \$72,361, ``RCN-UBE Incubator: The Biological and Environmental Data Education Network'', \textit{NSF}.}
+
+\cvline{2016}{Selected to present research to the (Nobel Peace Prize winning) President of Colombia and His Royal Highness the Prince of Wales, \textit{Natural History Museum}, London, UK.}
+
+\cvline{2013}{Training and travel grant, $\pounds$300, \textit{British Ecology Society}.}
+
+\cvline{2013}{Bursary, $\pounds$1,000, MRes in Biodiversity Informatics and Genomics, \textit{Imperial College London}, Silwood Park, UK.}
+
+\cvline{2012--2016}{Postgraduate scholarship, $\pounds$122,000, \textit{Administrative Department of Science, Technology and Innovation of Colombia (Colciencias)}.}
+
+\cvline{2004--2009}{Academic stimuli, biology program (highest GPA in I, II, IV, IX semesters), \textit{Universidad Industrial de Santander}, Bucaramanga, Colombia.}
 
 
-\section{ROLES AND RESPONSIBILITY}
-\cvline{2014}{\textit{Science Uncovered at the Natural History Museum}. Presented the PREDICTS project (\url{www.predicts.org.uk/}): Projecting Responses of Ecological Diversity In Changing Terrestrial Systems, and also the Solanaceae source project \url{www.solanaceaesource.org}}
+\vspace{0.25cm}
+\section{OTHER ROLES AND RESPONSIBILITIES}
 
-\cvline{2015--2016}{Secretary. Latin American Society, Imperial College London, London, UK. Responsible for running the fresher-fair, writing minutes and organizing dance sessions.}
+\cvline{2014}{Outreach, \textit{Science Uncovered at the Natural History Museum}. Presented the PREDICTS project found at \href{www.predicts.org.uk/}{www.predicts.org.uk} and the Solanaceae source project found at \href{www.solanaceaesource.org}{www.solanaceaesource.org}}.
+
+\cvline{2015--2016}{Secretary, \textit{Latin American Society, Imperial College London}, UK. Responsible for running the fresher-fair, writing minutes and organizing dance sessions.}
 
 
 
@@ -295,13 +279,6 @@ I am an early career researcher focusing on the study of large-scale patterns of
 
 
 
-\section{LANGUAGES}
-\cvline{Spanish}{Native}
-\cvline{English}{Proficient}
-\cvline{Italian}{Intermediate}
-
-
-
 %\cvline{2015}{International development conference (IDC). Imperial College London, London, United Kingdom}
 %
 %\cvline{2014}{16th Young Systematists' forum. Natural History Museum, London, United Kingdom}
@@ -333,54 +310,61 @@ I am an early career researcher focusing on the study of large-scale patterns of
 %}
 %\cvlanguage{2010}{Michigan English Test}{Score 127}
 
-\section{References}
 
-\vspace{0.3cm}
+\vspace{0.25cm}
+\section{REFERENCES}
 
-\cvreference{Prof Andrew J. Kerkhoff}
-{Professor of Biology}
-{Department of Biology}
-{Kenyon College}
-{Higley Hall, Gambier, OH 43022}
-{kerkhoffa@kenyon.edu}
-{+1 740 427 5734}%
+\begin{minipage}[t]{.5\textwidth}
+\raggedright
+\cvreference{Prof. Andrew J. Kerkhoff}
+	{Professor of Biology}
+	{Department of Biology}
+	{Kenyon College}
+	{Higley Hall, Gambier, OH 43022}
+	{kerkhoffa@kenyon.edu}
+	{+1 740 427 5734}
+\end{minipage}
+\hfill
+\begin{minipage}[t]{.5\textwidth}
+\raggedright
+
+\cvreference{Prof. Andy Purvis}
+	{Research Leader}
+	{Department of Life Science}
+	{Natural History Museum, Imperial College London}
+	{Cromwell Rd, London SW7 5BD}
+	{Andy.Purvis@nhm.ac.uk}
+	{+44 020 7942 5686}
+\end{minipage}
 
 \vspace{0.5cm}
 
-\cvreference{Prof Andy Purvis}
- 	{Research Leader}
-    {Department of Life Science}
-    {Natural History Museum and Imperial College London}
-    {Cromwell Rd, South Kensington, London SW7 5BD}
-    {Andy.Purvis@nhm.ac.uk}
-    {+44 020 7942 5686}%
-
-    \vspace{0.5cm}
-
+\begin{minipage}[t]{.5\textwidth}
+\raggedright
 \cvreference{Dr Sandra Knapp}
-    {Merit Researcher, Head of Division}
-    {Department of Life Science}
-    {Natural History Museum}
-    {Cromwell Rd, South Kensington, London SW7 5BD}
-    {s.knapp@nhm.ac.uk}
-    {+44 020 7942 5171}%
-
-      \vspace{0.5cm}
-
+	{Merit Researcher, Head of Division}
+    	{Department of Life Science}
+    	{Natural History Museum}
+    	{Cromwell Rd, London SW7 5BD}
+    	{s.knapp@nhm.ac.uk}
+    	{+44 020 7942 5171}
+\end{minipage}
+\hfill
+\begin{minipage}[t]{.5\textwidth}
+\raggedright
 \cvreference{Dr Natalie Cooper}
 	{Researcher}
-    {Department of Life Science}
-    {Natural History Museum}
-    {Cromwell Rd, South Kensington, London SW7 5BD}
-    {natalie.cooper@nhm.ac.uk}
-    {+44 020 7942 5083}%
-
-      \vspace{0.5cm}
-
+    	{Department of Life Science}
+    	{Natural History Museum}
+    	{Cromwell Rd, London SW7 5BD}
+    	{natalie.cooper@nhm.ac.uk}
+    	{+44 020 7942 5083}
+\end{minipage}
 
 
-\closesection{}                   % needed to renewcommands
-\renewcommand{\listitemsymbol}{-} % change the symbol for lists
+
+\closesection{}                   				% needed to renewcommands
+\renewcommand{\listitemsymbol}{-} 		% change the symbol for lists
 
 %\section{Extra 1}
 %\cvlistitem{Item 1}
