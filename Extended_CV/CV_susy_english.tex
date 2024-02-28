@@ -5,10 +5,12 @@
 
 % moderncv themes
 %\moderncvtheme[blue]{casual}    		% optional argument are 'blue' (default), 'orange', 'red', 'green', 'grey' and 'roman' (for roman fonts, instead of sans serif fonts)
-\moderncvtheme[green]{classic}                	% idem
+\moderncvtheme[green]{casual}                	% idem
 
 % character encoding
 %\usepackage[utf8]{inputenc}                   	% replace by the encoding you are using
+
+
 
 % adjust the page margins
 \usepackage[right=1.7cm,left=1.7cm,textheight=24.5cm]{geometry}
@@ -16,14 +18,27 @@
 \setlength{\hintscolumnwidth}{2.5cm}
 
 % personal data
-\firstname{\huge Susy}
-\familyname{\huge Echeverr\'ia-Londo\~no, PhD }
+\firstname{Susy}
+\familyname{Echeverr\'ia-Londo\~no, PhD }
 \title{Environmental and Public-Health Data Scientist \vspace{0.4cm}}	% optional, remove the line if not wanted
-\address{}{}{92500 Rueil-Mailmaison,  France}{}    	% optional, remove the line if not wanted
+\address{Rueil-Malmaison}{92500}{France}%  	% optional, remove the line if not wanted
 %\mobile{+4407625786803}                    							% optional, remove the line if not wanted
 %\email{susy.echeverria-londono@imperial.ac.uk}									% optional, remove the line if not wanted
-\social[github]{https://github.com/susyelo}  
-\extrainfo{\href{https://susyelo.github.io/}{https://susyelo.github.io/}}                    			% optional, remove the line if not wanted
+% dato opcional, elimine la linea si no desea el dato
+\social[github]{susyelo}
+
+%
+% https://tex.stackexchange.com/questions/172191/skype-icon-in-the-cv-template
+\newcommand*{\scholarsocialsymbol}{\includegraphics[height=.7\baselineskip]{google-scholar}}
+\collectionadd[scholar]{socials}{\href{https://scholar.google.co.uk/citations?user=flRj5KMAAAAJ\&hl=en}{Susy Echeverr\'ia-Londo\~no}}
+
+\homepage{https://susyelo.github.io/}    
+\social[linkedin]{susyelo}  
+
+
+
+
+%\extrainfo{\href{https://susyelo.github.io/}{https://susyelo.github.io/}}                    			% optional, remove the line if not wanted
 
 %\nopagenumbers{}                             % uncomment to suppress automatic page numbering for CVs longer than one page
 
@@ -37,6 +52,8 @@
     \ifthenelse{\equal{#5}{}}{}{#5\newline}%
     \ifthenelse{\equal{#6}{}}{}{\emailsymbol~\texttt{#6}\newline}%
     \ifthenelse{\equal{#7}{}}{}{\phonesymbol~#7}}
+
+
 %----------------------------------------------------------------------------------
 %            content
 %----------------------------------------------------------------------------------
@@ -265,12 +282,12 @@
 \cvline{2004--2009}{Academic stimuli, biology program (highest GPA in I, II, IV, IX semesters), \textit{Universidad Industrial de Santander}, Bucaramanga, Colombia.}
 
 
-\vspace{0.25cm}
-\section{OTHER ROLES AND RESPONSIBILITIES}
+%\vspace{0.25cm}
+%\section{OTHER ROLES AND RESPONSIBILITIES}
 
-\cvline{2014}{Outreach, \textit{Science Uncovered at the Natural History Museum}. Presented the PREDICTS project found at \href{www.predicts.org.uk/}{www.predicts.org.uk} and the Solanaceae source project found at \href{www.solanaceaesource.org}{www.solanaceaesource.org}}.
+%\cvline{2014}{Outreach, \textit{Science Uncovered at the Natural History Museum}. Presented the PREDICTS project found at \href{www.predicts.org.uk/}{www.predicts.org.uk} and the Solanaceae source project found at \href{www.solanaceaesource.org}{www.solanaceaesource.org}}.
 
-\cvline{2015--2016}{Secretary, \textit{Latin American Society, Imperial College London}, UK. Responsible for running the fresher-fair, writing minutes and organizing dance sessions.}
+%\cvline{2015--2016}{Secretary, \textit{Latin American Society, Imperial College London}, UK. Responsible for running the fresher-fair, writing minutes and organizing dance sessions.}
 
 
 
