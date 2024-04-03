@@ -1,6 +1,7 @@
 \documentclass[11pt,a4paper]{moderncv}
 \usepackage[latin1]{inputenc}
 \usepackage{url}
+\usepackage{enumitem}
 
 
 % moderncv themes
@@ -55,7 +56,7 @@
 \maketitle
 
 
-%\vspace{-0.25cm}
+\vspace{-0.25cm}
 %\section{SUMMARY}
 % General Statement
 % As a Public Health and Environmental Research Consultant, I apply my expertise in using large, complex datasets and multiple data-science approaches to explore patterns of public health coverage across the globe, as well as understanding the complex relationships between biodiversity, environment, and human impact. I have over ten years of experience in conducting and publishing cutting-edge research in the field of public health and life science, using various tools and methods such as R, Python, GIS, phylogenetics, and statistical modelling.
@@ -63,26 +64,96 @@
 
 % In 2021, I was a member of the Imperial College Ebola Response Teams where we provided real-time outbreak analysis of the multiple Ebola Virus Disease outbreaks in the Democratic Republic of the Congo. I helped check the function and reproducibility of the main pipelines of Ebola outbreak analysis and also helped draft weekly real-time outbreak reports for the WHO. 
 
-\vspace{-0.75cm}
-\section{PROFESSIONAL EXPERIENCE}
+\section{WORK EXPERIENCE}
 
-\cventry{2023--present}{Full-time parenting}{}{}{}{}
-\cventry{2021--2022}{Public Health Research Consultant}{Vaccine Impact Modelling Consortium (VIMC), Department of Infectious Disease Epidemiology, Imperial College London}{}{UK}{}
-\cvline{}{PI: Prof. Neil M. Ferguson. Line manager:  Dr Katy Gaythorpe.}
-\cvline{}{Explored the subnational heterogeneity of the impact of routine vaccination in Africa, and estimated the vaccine impact across twelve vaccine-preventable diseases in 112 countries.}
+\cventry{2023--present}{Full-time Parenting}{}{}{}{}
 
-\cventry{2019--2021}{Public Health Research Associate}{Vaccine Impact Modelling Consortium (VIMC), Department of Infectious Disease Epidemiology, Imperial College London}{}{UK}{}
-\cvline{}{PI: Prof. Neil M. Ferguson. Line manager:  Dr Katy Gaythorpe.}
-\cvline{}{Generated disease burden and vaccine impact estimates across twelve vaccine-preventable diseases in 112 countries. }
+\cventry{2021--2022}{Research Consultant}{}{}{}{}
+\cventry{}{Imperial College London, UK}{Vaccine Impact Modelling Consortium (VIMC), Department of Infectious Disease Epidemiology}{PI: Prof. Neil M. Ferguson}{Line manager:  Dr Katy Gaythorpe}{}
+\cvline{}{\vspace{-0.5cm}
+\begin{enumerate}[itemsep=0.07cm]
+ \item Conducted thorough analysis, organisation, and preparation of vaccine impact estimates for 12 pathogens (Cholera, HepB, Hib, HPV, Japanese encephalitis, Measles, MenA, PCV, Rotavirus, Rubella, Typhoid, Yellow fever) across 112 countries spanning from 2000 to 2030, incorporating multiple estimates from diverse modeling groups for each pathogen.
+\item Extracted and standardised subnational estimates of vaccine coverage to project the impact of routine measles vaccination across 45 African countries while investigating subnational disparities within these regions from 2000 to 2019.  
+\item Collaborated to examining the effects of COVID-19 pandemic on immunisation activities for 14 pathogens (Diphtheria, HPV, HepB, HIB, Japanese encephalitis, Measles, MenA, PCV, Pertussis, Rotavirus, Rubella, Tetanus, Typhoid, Yellow fever). 
+\item Contributed to the publication of research findings in high-quality academic journals.
+\item Produced regular analytical reports for international organisations and funding bodies such as the Vaccine Alliance (GAVI), the Bill \& Melinda Gates Foundation (BMGF), and the World Health Organisation (WHO).
+\end{enumerate}
+}
 
-\cventry{2018--2019}{Biodiversity Visiting Scholar}{University of Pittsburgh, Biological Sciences}{}{USA}{}
-\cvline{}{PI: Dr. Justin Kitzes.}
-\cvline{}{Predicted extinction risks of 300 plant species by exploring and analyzing their time-series spatial point patterns.}
+\cventry{2019--2021}{Research Associate}{}{}{}{}
+\cventry{}{Imperial College London, UK}{Vaccine Impact Modelling Consortium (VIMC), Department of Infectious Disease Epidemiology}{PI: Prof. Neil M. Ferguson}{Line manager:  Dr Katy Gaythorpe}{}
+\cvline{}{\vspace{-0.5cm}
+\begin{enumerate}[itemsep=0.07cm]
+\item Conducted thorough analysis, organisation, and preparation of vaccine impact estimates for 10 pathogens (HepB, Hib, HPV, Japanese encephalitis, Measles, MenA, PCV, Rotavirus, Rubella, Yellow fever) across 112 countries spanning from 2000 to 2030, incorporating multiple estimates from diverse modeling groups for each pathogen.
+\item Assisted in the development of methods for aggregation and analysis of disease burden and vaccine impact estimates derived from various epidemiological models.
+\item Contributed to the publication of research findings in high-quality academic journals.
+\item Produced regular analytical reports for international organisations and funding bodies such as the Vaccine Alliance (GAVI), the Bill \& Melinda Gates Foundation (BMGF), and the World Health Organisation (WHO).
+\item Supported the Imperial College Ebola Response Team in evaluating the effectiveness and reliability of real-time outbreak analysis during multiple Ebola Virus Disease outbreaks in the Democratic Republic of the Congo.
+\item Assisted in the preparation of weekly real-time reports on Ebola outbreaks for the World Health Organization (WHO).
+\end{enumerate}
+}
 
-\cventry{2017--2019}{NSF Biodiversity Postdoctoral Associate}{Kenyon College, Biology}{}{USA}{}
-\cvline{}{PI: Prof. Andrew Kerkhoff and Prof. Brian J. Enquist.}
+\cventry{2018--2019}{Visiting Scholar}{}{}{USA}{}
+\cventry{}{University of Pittsburgh, USA}{Biological Sciences}{PI: Dr. Justin Kitzes}{}{}
+\cvline{}{Utilised spatial point pattern analysis to assess and predict extinction risks for 300 plant species through comprehensive exploration and analysis of their spatial time-series data.}
 
-\cvline{}{Studied the effects of habitat stability on current patterns of plant diversity using the distribution and phylogenetic relations of approximately 24000 plant species.}
+\cventry{2017--2019}{NSF Biodiversity Postdoctoral Associate}{}{}{USA}{}
+\cventry{}{Kenyon College}{Biology department}{PI: Prof. Andrew Kerkhoff and Prof. Brian J. Enquist.}{}{}
+\cvline{}{\vspace{-0.5cm}
+\begin{enumerate}[itemsep=0.07cm]
+\item Conducted an extensive analysis of functional diversity distributions among plant species across the biomes of North and South America. Used distribution data from approximately 85,000 plant species, comprising around 9 million geographic points, in conjunction with publicly available functional traits.
+\item Investigated the influence of habitat stability on current patterns of plant diversity through analysis of the distribution and phylogenetic relationships among approximately 24,000 plant species.
+\item Used machine learning methodologies to conduct paleohabitat reconstructions.
+\item Co-taught the BSc course ``Global Ecology and Biogeography''.
+\end{enumerate}}
+
+%\vspace{0.25cm}
+\section{SKILLS}
+\cvline{Programming}{\textbf{R} (advanced, 10-year experience)}{}{}
+\cvline{}{\textbf{Python} (intermediate, 2-year)}{}{}
+\cvline{}{\textbf{C++, shell, HPC cluster scripts} (basic, 1-year)}{}{}
+\cvline{Data science}{\textbf{Cleaning, processing, visualisation, statistical analysis} (advanced, 10-year)}
+\cvline{}{\textbf{GIS in R, ArcGIS} (intermediate, 4-year)}{}{}
+\begin{minipage}[t]{.1\textwidth}
+\raggedright
+\cvline{Version ctrl}{\textbf{Git}}{}{}
+\end{minipage}
+\hfil
+\begin{minipage}[t]{.5\textwidth}
+\raggedright
+\cvline{OS}{\textbf{Linux/Unix, OS X, Windows}}{}{}
+\end{minipage}
+\begin{minipage}[t]{.325\textwidth}
+\raggedright
+\cvline{Typography}{\textbf{LaTeX, Office}}{}{}
+\end{minipage}
+%\cvcomputer{Phylogeny software}{POY, TNT, Nona, Winclada, PhyML, MrBayes, Bioedit, PAUP, R, BAMM}{}{}
+%\cvcomputer{Biogeography software}{BioGeoBears, NDM, VNDM, Component 1.5, Component 2, DIVA, TREEFITTER, Martitracks}{}{}
+
+\section{EDUCATION}
+
+\cventry{2013--2017}{PhD in Life Science}{Imperial College London, Natural History Museum}{}{UK}{}
+
+\cvline{}{Thesis: Diversification patterns of \textit{Solanum} L. (Solanaceae), plant macroecology and biodiversity responses to land-use change.}
+\cvline{}{Supervisor: Prof. Andy Purvis. Co-supervisor Dr Sandra Knapp.}
+%\cvline{}{%
+%	\begin{itemize}
+%		\item Researched the dynamics of diversification of the megadiverse plant genus \textit{Solanum} using a collation of geographical, genetic and taxonomic data along with phylogenetic comparative methods.
+%		\item Studied large-scale patterns of plant diversity and their responses to land-use change from data of a global collation of local field-based studies.
+%		\item Carried out large-scale evolutionary modelling exercise on an HPC Linux cluster. \vspace{-0.5cm}
+%\end{itemize}}
+
+\cventry{2012--2013}{MRes in Biodiversity, Informatics, Genomics \normalfont{(distinction)}}{Imperial College London}{}{UK}{}
+%%\cvline{}{Thesis: Modelling and projecting response of Colombian biodiversity to land-use change.}
+%%\cvline{}{Supervisor: Prof. Andy Purvis.}
+
+\cventry{2004--2010}{BSc in Biology \normalfont{(1st-class honors)}}{Universidad Industrial de Santander}{}{Colombia}{}
+%\cvline{}{Grade point average, 4.2/5.0}
+%\cvline{}{\textbf{Thesis:} A geometrical approach for identifying geographical patterns of distribution.}
+%\cvline{}{Supervisor: Dr Daniel Rafael Miranda-Esquivel}
+
+
+\vspace{0.25cm}
 %\cvline{}{%
 %
 %%	\begin{itemize}
@@ -107,50 +178,6 @@
 
 
 %\vspace{0.25cm}
-\section{EDUCATION}
-
-\cventry{2013--2017}{PhD in Life Science}{Imperial College London, Natural History Museum}{}{UK}{}
-
-\cvline{}{Thesis: Diversification patterns of \textit{Solanum} L. (Solanaceae), plant macroecology and biodiversity responses to land-use change.}
-\cvline{}{Supervisor: Prof. Andy Purvis. Co-supervisor Dr Sandra Knapp.}
-%\cvline{}{%
-%	\begin{itemize}
-%		\item Researched the dynamics of diversification of the megadiverse plant genus \textit{Solanum} using a collation of geographical, genetic and taxonomic data along with phylogenetic comparative methods.
-%		\item Studied large-scale patterns of plant diversity and their responses to land-use change from data of a global collation of local field-based studies.
-%		\item Carried out large-scale evolutionary modelling exercise on an HPC Linux cluster. \vspace{-0.5cm}
-%\end{itemize}}
-
-\cventry{2012--2013}{MRes in Biodiversity, Informatics, Genomics \normalfont{(distinction)}}{Imperial College London}{}{UK}{}
-%%\cvline{}{Thesis: Modelling and projecting response of Colombian biodiversity to land-use change.}
-%%\cvline{}{Supervisor: Prof. Andy Purvis.}
-
-\cventry{2004--2010}{BSc in Biology \normalfont{(1st-class honors)}}{Universidad Industrial de Santander}{}{Colombia}{}
-%\cvline{}{Grade point average, 4.2/5.0}
-%\cvline{}{\textbf{Thesis:} A geometrical approach for identifying geographical patterns of distribution.}
-%\cvline{}{Supervisor: Dr Daniel Rafael Miranda-Esquivel}
-
-%\vspace{0.25cm}
-\section{COMPUTER SKILLS}
-\cvline{Programming}{\textbf{R} (advanced, 10-year experience)}{}{}
-\cvline{}{\textbf{Python} (intermediate, 2-year)}{}{}
-\cvline{}{\textbf{C++, shell, HPC cluster scripts} (basic, 1-year)}{}{}
-\cvline{Data science}{\textbf{Cleaning, processing, visualisation, statistical analysis} (advanced, 10-year)}
-\cvline{}{\textbf{GIS in R, ArcGIS} (intermediate, 4-year)}{}{}
-\begin{minipage}[t]{.1\textwidth}
-\raggedright
-\cvline{Version ctrl}{\textbf{Git}}{}{}
-\end{minipage}
-\hfil
-\begin{minipage}[t]{.5\textwidth}
-\raggedright
-\cvline{OS}{\textbf{Linux/Unix, OS X, Windows}}{}{}
-\end{minipage}
-\begin{minipage}[t]{.325\textwidth}
-\raggedright
-\cvline{Typography}{\textbf{LaTeX, Office}}{}{}
-\end{minipage}
-%\cvcomputer{Phylogeny software}{POY, TNT, Nona, Winclada, PhyML, MrBayes, Bioedit, PAUP, R, BAMM}{}{}
-%\cvcomputer{Biogeography software}{BioGeoBears, NDM, VNDM, Component 1.5, Component 2, DIVA, TREEFITTER, Martitracks}{}{}
 
 %\clearpage
 \section{LANGUAGES}
