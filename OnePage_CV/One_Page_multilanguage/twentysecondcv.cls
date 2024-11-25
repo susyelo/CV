@@ -100,7 +100,7 @@
 \pgfmathsetlength{\imagewidth}{5cm}%
 \pgfmathsetlength{\imagescale}{\imagewidth/600}%
 
-\newcommand{\profilesection}[2]{{\noindent\color{black!80} \huge #1 \rule[0.15\baselineskip]{#2}{1pt} \vspace{1pt}}}
+\newcommand{\profilesection}[2]{{\noindent\color{black!80} \Large #1 \rule[0.15\baselineskip]{#2}{1pt} \vspace{1pt}}}
 
 \newcommand{\cvdate}[1]{\renewcommand{\givencvdate}{#1}}                % date
 \newcommand{\cvmail}[1]{\renewcommand{\givencvmail}{#1}}                % mail
@@ -181,7 +181,7 @@
       \node [rectangle, fill=asidecolor, anchor=north, minimum width=9.90cm, minimum height=\paperheight+1cm] (box) at (-5cm,0.5cm){};
   \end{tikzpicture}
 
-  \begin{textblock}{6}(0.5, 0.2)
+  \begin{textblock}{6.45}(0.5, 0.2)
     \begin{flushleft}
       \hspace{13pt}
 
@@ -192,12 +192,12 @@
       \end{tikzpicture}}
 
       % name
-      {\Huge\color{mainblue}\givencvname}
+      {\LARGE\color{mainblue}\givencvname}
 
       % jobtitle
-      \begin{flushright}
+      \begin{flushleft}
         {\Large\color{black!80}\givencvjobtitle}
-      \end{flushright}
+      \end{flushleft}
       \renewcommand{\arraystretch}{1.6}
 
       % table with icons 
@@ -213,19 +213,22 @@
         % CV mail
         \ifthenelse{\equal{\givencvmail}{}}{}{\textsc{\large\icon{@}} & \href{mailto:\givencvmail}{\givencvmail}}
       \end{tabular}
+      \bigskip\bigskip
 
       % about me text
-      \profilesection{About me}{3.2cm}
+      \profilesection{About me}{0cm}
       \givenaboutme
+      \medskip
 
       % skills with scale
-      \profilesection{Skill}{5cm}
+      \profilesection{Skills}{0cm}
+      
       \givenskill
       \giventextskill
       \noindent
       \scriptsize
-      \noindent
-      (*)[The skill scale is from 0 (Fundamental Awareness) to 6 (Expert).]
+      \noindent\\\\
+      (Skill scale from 0 (Fundamental) to 6 (Expert))
 
     \end{flushleft}
   \end{textblock}
