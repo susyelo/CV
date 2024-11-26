@@ -1,3 +1,4 @@
+
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %
 % Twenty Seconds Curriculum Vitae in LaTex
@@ -58,7 +59,7 @@
 \definecolor{gray}{HTML}{4D4D4D}
 \definecolor{sidecolor}{HTML}{E7E7E7}
 \definecolor{lightgray}{HTML}{999999}
-\definecolor{green}{HTML}{C2E15F}
+\definecolor{green}{HTML}{1dae08}
 \definecolor{orange}{HTML}{FDA333}
 \definecolor{purple}{HTML}{D3A4F9}
 \definecolor{red}{HTML}{FB0B00}
@@ -84,7 +85,7 @@
 \fi
 
 \colorlet{textcolor}{gray}
-\colorlet{headercolor}{gray}
+\colorlet{headercolor}{green}
 
 %%%%%%%%%%%%%%%%%%%%%%%%
 % Profile left SideBar %
@@ -124,15 +125,15 @@
 
 % icon in blue circle; #1 -> icon
 \newcommand*\icon[1]{\tikz[baseline=(char.base)]{
-  \node[shape=circle,draw,inner sep=1pt, fill=mainblue,mainblue,text=white] (char) {#1};}
+  \node[shape=circle,draw,inner sep=1pt, fill=green,green,text=white] (char) {#1};}
 }
 
 % Text in square node with rounded corners; #1 -> text, #2 -> color
-\newcommand*\round[2]{%
-\tikz[baseline=(char.base)]\node[anchor=north west, draw,rectangle,
-  rounded corners, inner sep=1.6pt, minimum size=5.5mm, text height=3.6mm,
-  fill=#2,#2,text=white](char){#1};%
-}
+%\newcommand*\round[2]{%
+%\tikz[baseline=(char.base)]\node[anchor=north west, draw,rectangle,
+%  rounded corners, inner sep=1.6pt, minimum size=5.5mm, text height=3.6mm,
+%  fill=#2,#2,text=white](char){#1};%
+%}
 
 % skill bar graphs
 \newcommand\skills[1]{
@@ -142,7 +143,7 @@
     \foreach [count=\i] \x/\y in {#1}
     {
       \draw[fill=maingray,maingray] (0,-\i) rectangle (6,-\i+0.4);
-      \draw[fill=white,mainblue](0,-\i) rectangle (1.2*\y,-\i+0.4);
+      \draw[fill=white,green](0,-\i) rectangle (1.2*\y,-\i+0.4);
       \node [above right ] at (0,-\i+0.4) {\x};
       \foreach \z in {0,1,2,...,10}
       {
@@ -192,7 +193,7 @@
       \end{tikzpicture}}
 
       % name
-      {\LARGE\color{mainblue}\givencvname}
+      {\LARGE\color{green}\givencvname}
 
       % jobtitle
       \begin{flushleft}
@@ -239,16 +240,16 @@
 % Section Color box %
 %%%%%%%%%%%%%%%%%%%%%
 \newcounter{colorCounter}
-\def\@sectioncolor#1#2#3{
+\def\@sectioncolor{
   {%
   % Switch between blue and gray
-   \round{#1#2#3}{%
-      \ifodd\value{colorCounter}%
-        mainblue%
-      \else%
-        maingray%
-      \fi%
-    }%
+%   \round{#1#2#3}{%
+%      \ifodd\value{colorCounter}%
+%        maingray%
+%      \else%
+%        maingray%
+%      \fi%
+%    }%
   }%
   \stepcounter{colorCounter}%
 }
