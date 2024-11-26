@@ -217,19 +217,19 @@
       \bigskip\bigskip
 
       % about me text
-      \profilesection{About me}{0cm}
+      \profilesection{A propos de moi}{0cm}
       \givenaboutme
       \medskip
 
       % skills with scale
-      \profilesection{Skills}{0cm}
+      \profilesection{Compétences}{0cm}
       
       \givenskill
       \giventextskill
       \noindent
       \scriptsize
       \noindent\\\\
-      (Skill scale from 0 (Fundamental) to 6 (Expert))
+      Echelle : 0 (basique) à 6 (expert)
 
     \end{flushleft}
   \end{textblock}
