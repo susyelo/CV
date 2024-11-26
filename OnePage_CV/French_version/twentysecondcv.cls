@@ -59,7 +59,7 @@
 \definecolor{gray}{HTML}{4D4D4D}
 \definecolor{sidecolor}{HTML}{E7E7E7}
 \definecolor{lightgray}{HTML}{999999}
-\definecolor{green}{HTML}{1dae08}
+\definecolor{green}{HTML}{20a60c}
 \definecolor{orange}{HTML}{FDA333}
 \definecolor{purple}{HTML}{D3A4F9}
 \definecolor{red}{HTML}{FB0B00}
@@ -188,7 +188,7 @@
 
       % profile picture
       \ifthenelse{\equal{\givenprofilepic}{}}{}{\begin{tikzpicture}[x=\imagescale,y=-\imagescale]
-          \clip (600/2, 567/2) circle (567/2);
+          \clip (600/2, 600/2) circle (600/2);
           \node[anchor=north west, inner sep=0pt, outer sep=0pt] at (0,0) {\includegraphics[width=\imagewidth]{\givenprofilepic}};
       \end{tikzpicture}}
 
