@@ -1,0 +1,132 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%
+% Twenty Seconds Curriculum Vitae in LaTex
+% ****************************************
+% 
+% License: MIT
+%
+% For further information please visit:
+% https://github.com/spagnuolocarmine/TwentySecondsCurriculumVitae-LaTex
+% 
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\documentclass[icon]{twentysecondcv}
+\begin{document}
+
+%%%%%%%%%%%%%%%%%%%%%%
+%% PROFILE SIDE BAR %%
+%%%%%%%%%%%%%%%%%%%%%%
+% personal info
+\profilepic{Profile.png}          % path of profile pic
+\cvname{Susy\\  Echeverr\'ia-Londono}                   % your name
+\cvjobtitle{Data scientist spécialisé \\ en biodiversité et santé publique}          % your actual job position
+%\cvdate{26 November 1865}        % date of birth
+\cvaddress{Région parisienne, France}       % address
+\cvnumberphone{+33 636011545}   % telephone number
+\cvmail{phepidata@gmail.com}    % e-mail
+\cvsite{https://susyelo.github.io} % personal site
+
+\aboutme{
+
+\noindent Je suis data scientist, spécialisé dans la biodiversité et la santé publique, avec plus de dix ans d'expérience dans la conduite et la publication de recherches innovantes. Mon expertise porte sur l'analyse de grands ensembles de données complexes et \\ l'application de méthodes avancées en science des données pour identifier des tendances globales en santé publique ainsi que les interactions complexes entre biodiversité, facteurs environnementaux et activités humaines.
+
+} % about me section
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%% Skill bar section, each skill must have a value between 0 an 6 (float) %%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\skills{{Programmation en R/5},{SIG, $\textbullet$ Modélisation statistique/4.5}, {Git, $\textbullet$\large LaTeX/ 4}, {Python, $\textbullet$ Scripts pour clusters HPC, $\textbullet$ Shell/ 2}}
+
+\makeprofile
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%
+%% END PROFILE SIDE BAR %%
+%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%%%%%%%%%%%%%%%%%%
+%%%%%% BODY %%%%%%
+%%%%%%%%%%%%%%%%%%
+
+%%%%%%%%%%%%%%%%%%%%
+%% SIMPLE SECTION %%
+%%%%%%%%%%%%%%%%%%%%
+
+
+\section{Expérience}
+
+\begin{twenty} % Environment for a list with descriptions
+
+% \twentyitem{<dates>}{<title>}{<location>}{<description>}
+
+ \twentyitem
+    	{2022- \\ present}
+    	{Data scientist indépendante}
+	{Freelance}
+        	{\\ \small Évalué et comparé les estimations d’impact des vaccins contre la dengue, la tuberculose (TB), le Streptocoque du groupe B (GBS) et la shigellose issues de la Stratégie d’investissement dans les vaccins 2024 de GAVI avec celles des vaccins du Vaccine Impact Modelling Consortium (VIMC).}
+        	
+	
+ \twentyitem
+       {2019-2022}
+       {Consultante en recherche \\ et Associée de recherche}
+       {Imperial College London, UK}
+       {\\ \small Analysé, organisé et préparé les estimations d’impact vaccinal pour 12 pathogènes (choléra, hépatite B, Hib, HPV, encéphalite japonaise, rougeole, MenA, PCV, rotavirus, rubéole, typhoïde et fièvre jaune) dans 112 pays, couvrant la période de 2000 à 2030. \textit{ PI: Prof. Neil M. Ferguson and Line manager: Dr Katy Gaythorpe}.}
+      
+\twentyitem
+    	{2018- 2019}
+	{Chercheuse invitée}
+        	{University of Pittsburgh, PA, USA}
+        	{\\ \small Évalué et prédit les risques d’extinction de 300 espèces végétales grâce à une exploration approfondie et une analyse de leurs données spatio-temporelles, en utilisant l’analyse de schéma ponctuel spatial (spatial point pattern analysis).  \textit{PI: Dr. Justin Kitzes}.}
+
+	\twentyitem
+    	{2017-2019}
+	{Associée postdoctorale de la NSF}
+        {Kenyon College, OH, USA}
+        {\\ \small Mené une analyse approfondie des distributions de diversité fonctionnelle parmi les espèces végétales à travers les biomes d’Amérique du Nord et du Sud. Utilisé les données de distribution d’environ 85 000 espèces végétales, comprenant près de 9 millions de points géographiques, en les croisant avec des traits fonctionnels disponibles publiquement. \textit{PI: Prof. Andrew Kerkhoff and Prof. Brian J. Enquist}. }
+      
+    
+    \twentyitem
+	{2013-2017}
+	{Chargée de cours et démonstratrice}
+	{Natural History Museum  Imperial College London, UK}
+	{}
+	%{\\ \small Enseigné et réalisé des démonstrations pour plusieurs cours quantitatifs dans les programmes de master en Taxonomie et Biodiversité et de licence en Sciences de la vie.}
+	%
+\end{twenty}
+
+
+\section{Éducation}
+
+\begin{twenty}
+  \twentyitem
+    {2013-2017}
+    {Doctorat  {\normalfont en sciences de la vie}}
+    {Imperial College London, UK}
+    {}
+  \twentyitem
+    {2012-2013}
+    {M.Res. avec mention  \\  {\normalfont en biodiversité, informatique et génomique}}
+    {Imperial College London, UK}
+    {}
+  \twentyitem
+    {2004-2010}
+    {Licence en biologie  \\  première classe}
+    {Universidad Industrial de Santander, Colombia}
+    {}
+ \end{twenty}
+ 
+ 
+ \section{Publications sélectionnées}
+
+\small 2022 \textbf{Echeverr\'ia-Londo\~no, S,.}  Hartner, A. M., Li, X., Roth, J., Portnoy, A., Sbarra, A. N., ... \& Gaythorpe, K. A. Exploring the subnational inequality and heterogeneity of the impact of routine measles immunisation in Africa. \textit{Vaccine}, 40(47), 6806-6817. 
+
+\small  2021 \textbf{Echeverr\'ia-Londo\~no, S,.}  Li, X., Toor, J., de-Villiers, M., Nayagam, S., Hallett, T.B., Abbas, K., Jit, M., Klepac, P., Jean, K. \&  Garske, T. How can the public health impact of vaccination be estimated? \textit{BMC Public Health}, 21, 2049 (2021).
+
+\small  2020. \textbf{Echeverr\'ia-Londo\~no, S,.}  S{\"a}rkinen, T., Fenton, I. S., Knapp, S. and Purvis, A. Dynamism and context dependency in the diversification of the megadiverse plant genus Solanum L. (Solanaceae), \textit{Journal of Systematics and Evolution},  58(6), 767-782. 
+
+\small  2018. \textbf{Echeverr\'ia-Londo\~no, S.,} Enquist. B. J., Neves, D. M., Violle, C. and Kerkhoff, A. J. Plant functional diversity and the biogeography of biomes in North and South America. \textit{Frontiers in Ecology and Evolution}, 6(DEC), 219.
+
+\small  2016. \textbf{Echeverr\'ia-Londo\~no, S.,} Newbold, T., Hudson, L. N., Hill, S. L., Contu, S., Lysenko, I., \dots and Purvis, A. Modelling and projecting the response of Colombian biodiversity to land-use change, \textit{Diversity and Distributions}, 22, 1099--1111. 
+%%%%%%%%%%%%%%%%%%%%%%
+%%%%% ENDBODY %%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%
+\end{document} 
