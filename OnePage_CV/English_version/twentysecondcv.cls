@@ -123,6 +123,7 @@
 \newcommand{\givencvsite}{}          % site
 \newcommand{\givencvjobtitle}{}      % job title
 
+
 % icon in blue circle; #1 -> icon
 \newcommand*\icon[1]{\tikz[baseline=(char.base)]{
   \node[shape=circle,draw,inner sep=1pt, fill=green,green,text=white] (char) {#1};}
