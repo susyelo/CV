@@ -1,0 +1,190 @@
+% !TeX spellcheck = en_GB
+% !TeX program = pdflatex
+%
+% LuxSleek-CV 1.1 LaTeX template
+% Author: Andreï V. Kostyrka, University of Luxembourg
+%
+% 1.1: added tracking and letter-spacing for prettier lower caps, added `~` for language levels
+% 1.0: initial release
+%
+% This template fills the gap in the available variety of templates
+% by proposing something that is not a custom class, not using any
+% hard-coded settings deeply hidden in style files, and provides
+% a handful of custom command definitions that are as transparent as it gets.
+% Developed at the University of Luxembourg.
+%
+% *NOTHING IS HARCODED, and never should be.*
+%
+% Target audience: applicants in the IT industry, or business in general
+%
+% The main strength of this template is, it explicitly showcases how
+% to break the flow of text to achieve the most flexible right alignment
+% of dates for multiple configurations.
+
+\documentclass[10pt, a4paper]{article} 
+
+\usepackage[T1]{fontenc}     % We are using pdfLaTeX,
+\usepackage[utf8]{inputenc}  % hence this preparation
+\usepackage[british]{babel}  
+\usepackage[left = 0mm, right = 0mm, top = 0mm, bottom = 0mm]{geometry}
+\usepackage[stretch = 25, shrink = 25, tracking=true, letterspace=30]{microtype}  
+\usepackage{graphicx}        % To insert pictures
+\usepackage{xcolor}          % To add colour to the document
+\usepackage{marvosym}        % Provides icons for the contact details
+
+\usepackage{enumitem}        % To redefine spacing in lists
+\setlist{parsep = 0pt, topsep = 0pt, partopsep = 1pt, itemsep = 1pt, leftmargin = 6mm}
+
+\usepackage[default]{FiraSans}     % Change this to use any font, but keep it simple
+\renewcommand{\familydefault}{\sfdefault}
+
+\definecolor{cvblue}{HTML}{304263}
+
+%%%%%%% USER COMMAND DEFINITIONS %%%%%%%%%%%%%%%%%%%%%%%%%%%
+% These are the real workhorses of this template
+\newcommand{\dates}[1]{\hfill\mbox{\textbf{#1}}} % Bold stuff that doesn’t got broken into lines
+\newcommand{\is}{\par\vskip.5ex plus .4ex} % Item spacing
+\newcommand{\smaller}[1]{{\small$\diamond$\ #1}}
+\newcommand{\headleft}[1]{\vspace*{3ex}\textsc{\textbf{#1}}\par%
+    \vspace*{-1.5ex}\hrulefill\par\vspace*{0.7ex}}
+\newcommand{\headright}[1]{\vspace*{2.5ex}\textsc{\Large\color{cvblue}#1}\par%
+     \vspace*{-2ex}{\color{cvblue}\hrulefill}\par}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\usepackage[colorlinks = true, urlcolor = white, linkcolor = white]{hyperref}
+
+\begin{document}
+
+% Style definitions -- killing the unnecessary space and adding the skips explicitly
+\setlength{\topskip}{0pt}
+\setlength{\parindent}{0pt}
+\setlength{\parskip}{0pt}
+\setlength{\fboxsep}{0pt}
+\pagestyle{empty}
+\raggedbottom
+
+\begin{minipage}[t]{0.33\textwidth} %% Left column -- outer definition
+%  Left column -- top dark rectangle
+\colorbox{cvblue}{\begin{minipage}[t][5mm][t]{\textwidth}\null\hfill\null\end{minipage}}
+
+\vspace{-.2ex} % Eliminates the small gap
+\colorbox{cvblue!90}{\color{white}  %% LEFT BOX
+\kern0.09\textwidth\relax% Left margin provided explicitly
+\begin{minipage}[t][293mm][t]{0.82\textwidth}
+\raggedright
+\vspace*{2.5ex}
+
+\Large Susy \textbf{\textsc{Echeverria-Londono, PhD}} \normalsize 
+
+% Centering without extra vertical spacing
+%\null\hfill\includegraphics[width=0.65\textwidth]{Profile.png}\hfill\null
+
+\headleft{Coordonnées}
+\small % To fit more content
+\MVAt\ {\small susyelo@gmail.com} \\[0.4ex]
+\Mobilefone\ +33 6 36 01 15 45 \\[0.5ex]
+\Mundus\ \href{https://susyelo.github.io/}{susyelo.github.io} \\[0.1ex]
+\Letter\ Région parisienne, France
+\normalsize
+
+\vspace*{0.5ex} % Extra space after the picture
+
+\headleft{Résumé professionnel}
+\small Chercheur pluridisciplinaire avec plus de 10 ans d’expérience à l’intersection de la biodiversité, de la santé publique et des sciences de l’environnement. Expert dans la synthèse et la communication de résultats scientifiques complexes à destination des chercheurs, décideurs politiques et grand public. Compétent dans la gestion et l’organisation d’événements internationaux. Solides compétences en synthèse scientifique, visualisation de données et coordination collaborative à travers l’Europe, les Amériques et des consortiums internationaux (par ex. OMS, GAVI, NSF, VIMC).
+
+
+\headleft{Compétences}
+\normalsize
+
+\begin{itemize}
+
+\item Direction de projets de recherche internationaux et publications scientifiques (par ex. VIMC, financés par NSF)
+\item Expérience dans la présentation et la rédaction de rapports pour des publics variés, incluant scientifiques, décideurs et grand public.
+\item Solide expérience de travail avec des équipes internationales.
+\item Expérience dans la coopération bilatérale et internationale (Amérique latine et Royaume-Uni).
+\item Grande capacité à synthétiser des données complexes en informations accessibles.
+\item Proactif et bien organisé, avec une forte capacité à prioriser et un bon esprit d’équipe.
+\item Multilingue (espagnol natif, anglais professionnel, français/italien intermédiaire).
+\item Outils : R, Python, Git, Excel, LaTeX, Suite Office 
+\end{itemize} 
+
+\headleft{Centres d’intérêt}
+En dehors du travail, je pratique la danse, je me promène régulièrement avec mon chien et ma famille, et je fais du bénévolat dans des refuges pour chiens.
+
+
+
+\end{minipage}%
+\kern0.09\textwidth\relax%%Right margin provided explicitly to stretch the colourbox
+}
+\end{minipage}% Right column
+\hskip2.5em% Left margin for the white area
+\begin{minipage}[t]{0.56\textwidth}
+\setlength{\parskip}{0.8ex}% Adds spaces between paragraphs; use \\ to add new lines without this space. Shrink this amount to fit more data vertically
+
+\vspace{2ex}
+
+\headright{Expérience professionnelle}
+
+\is
+\textsc{Consultant en recherche (freelance)} \dates{2022-- aujourd’hui}  \\  
+\textit{Global / Télétravail}   \\
+{\small \begin{itemize}
+	\item Soutien aux institutions de politique publique dans l’évaluation du potentiel d’harmonisation et d’intégration des estimations d’impact vaccinal à travers plusieurs plateformes.
+  	\item Communication des résultats à travers des rapports destinés à des parties prenantes mondiales (VIMC, GAVI et BMGF).
+\end{itemize}}
+        		
+\is	
+\textsc{Consultant et Associé de recherche}    \dates{2019--2022} \\
+\textit{Imperial College London, Royaume-Uni} \\
+{\small  \begin{itemize}     
+  	\item Collaboration avec une équipe multidisciplinaire de chercheurs, d’experts techniques, d’organisations axées sur les politiques et de chefs de projet pour produire des rapports de recherche et d’orientation politique.
+  	\item Production de livrables robustes et pertinents pour les politiques de santé mondiale ; rédaction régulière de rapports techniques pour soutenir la prise de décision fondée sur des données probantes.
+  	\item Rédaction de notes de synthèse et de rapports pour appuyer les décisions stratégiques en matière de vaccination à l’échelle mondiale.
+  	\item Collaboration avec des chercheurs colombiens pour comprendre la propagation et l’évolution initiale du SARS-CoV-2 en Colombie.
+\end{itemize}}
+
+\is
+\textsc{Chercheur postdoctoral (NSF)}  \dates{2017--2019} \\
+\textit{Kenyon College, Ohio, États-Unis} \\
+{\small \begin{itemize}
+	\item Direction de recherches sur la biodiversité végétale à travers différents biomes en Amérique, intégrant des données phylogénétiques et écologiques.
+	\item Co-développement et enseignement d’un module international “Écologie globale et biogéographie”.
+ 	\item Collaboration avec des chercheurs brésiliens sur l’évolution des biomes. \textit{PIs : Prof. Andrew Kerkhoff et Prof. Brian J. Enquist}
+\end{itemize} }
+
+\is  
+\textsc{Chargé de cours et démonstrateur} \dates{2013--2017} \\  
+\textit{Muséum d’Histoire Naturelle / Imperial College London, Royaume-Uni} \\
+{\small \begin{itemize}
+  	\item Coordination de la collecte et de l’analyse de données sur le terrain entre chercheurs colombiens et institutions britanniques.
+  	\item Contribution à la diplomatie scientifique de haut niveau, présentation des résultats de recherche à des personnalités comme le président colombien, des ministres et le prince Charles.
+\end{itemize} }
+
+\headright{Formation}
+\small
+\textsc{Doctorat (Ph.D.)} en Sciences de la Vie  \dates{2013--2017} \\
+ \textit{Imperial College London, Royaume-Uni}.\\
+%\smaller{\textit{Thèse : Macrovévolution des plantes et réponses de la biodiversité aux changements d’utilisation des terres.}}
+
+\is
+\textsc{Master Recherche (M.Res.)} en Biodiversité, Informatique et Génomique  avec distinction \dates{2012--2013} \\
+\textit{Imperial College London, Royaume-Uni}.  \\
+%\smaller{Thèse : Effets de l’usage des terres sur la biodiversité locale en Colombie.}
+
+\is
+\textsc{Licence en Biologie} (mention très bien)  \dates{2004--2010} \\
+\textit{Universidad Industrial de Santander, Colombie}. 
+
+\headright{Projets et Réalisations}
+\small
+\begin{itemize}
+\item Gestion de la livraison hebdomadaire de rapports destinés à l’OMS, GAVI, et BMGF, en respectant des délais stricts.
+\item Participation et organisation de réunions internationales de travail ; coordination de jeux de données multi-pays ; appui à la mise en place d’accords de coopération.
+\item Coordination de la collecte de données et de la communication entre chercheurs colombiens et européens pour des projets de suivi de biodiversité (ex. : PREDICTS).
+\item Plus de 30 articles dans des revues à comité de lecture (Lancet, Nature, eLife, Vaccine) : \url{https://susyelo.github.io/publications.html}.
+\item Lauréat du prix "Outstanding Paper by Young Investigator" (JSE, 2022).
+\end{itemize}
+
+\end{minipage}
+
+\end{document}
