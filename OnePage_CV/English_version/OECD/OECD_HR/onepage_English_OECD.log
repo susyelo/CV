@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 20.6.29) (preloaded format=pdflatex 2020.9.14)  4 MAY 2025 13:27
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 20.6.29) (preloaded format=pdflatex 2020.9.14)  4 MAY 2025 18:37
 entering extended mode
 **./onepage_English_OECD.tex
 (onepage_English_OECD.tex
@@ -555,12 +555,12 @@ put line 139.
 LaTeX Font Info:    Font shape `T1/FiraSans-OsF/regular/it' will be
 (Font)              scaled to size 9.0pt on input line 139.
 
-Underfull \hbox (badness 10000) in paragraph at lines 145--148
+Underfull \hbox (badness 10000) in paragraph at lines 144--147
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 155--158
+Underfull \hbox (badness 10000) in paragraph at lines 154--156
 
  []
 
@@ -569,32 +569,32 @@ File: mt-cmr.cfg 2013/05/19 v2.2 microtype config. file: Computer Modern Roman
 (RS)
 )
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <9> on input line 167.
+(Font)              <9> on input line 166.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <6> on input line 167.
+(Font)              <6> on input line 166.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <5> on input line 167.
+(Font)              <5> on input line 166.
 
-Underfull \hbox (badness 10000) in paragraph at lines 174--175
+Underfull \hbox (badness 10000) in paragraph at lines 174--176
 
  []
 
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 189.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 190.
 [1
 
 {C:/Users/susye/AppData/Local/MiKTeX/pdftex/config/pdftex.map}]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 189.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 190.
 
 (onepage_English_OECD.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 189.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 189.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 190.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 190.
 Package rerunfilecheck Info: File `onepage_English_OECD.out' has not changed.
 (rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 189.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 190.
  ) 
 Here is how much of TeX's memory you used:
  10020 strings out of 480790
- 164327 string characters out of 2897301
+ 164330 string characters out of 2897301
  476878 words of memory out of 3000000
  25812 multiletter control sequences out of 15000+200000
  747115 words of font info for 79 fonts, out of 3000000 for 9000
@@ -609,7 +609,7 @@ ublic/fira/FiraSans-Italic.pfb><C:/Users/susye/AppData/Local/Programs/MiKTeX/fo
 nts/type1/public/fira/FiraSans-Regular.pfb><C:/Users/susye/AppData/Local/Progra
 ms/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy9.pfb><C:/Users/susye/AppData/Loca
 l/Programs/MiKTeX/fonts/type1/public/marvosym/marvosym.pfb>
-Output written on onepage_English_OECD.pdf (1 page, 180745 bytes).
+Output written on onepage_English_OECD.pdf (1 page, 180708 bytes).
 PDF statistics:
  41 PDF objects out of 1000 (max. 8388607)
  2 named destinations out of 1000 (max. 500000)
