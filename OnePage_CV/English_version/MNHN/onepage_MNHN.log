@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 20.6.29) (preloaded format=pdflatex 2020.9.14)  30 APR 2025 20:33
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 20.6.29) (preloaded format=pdflatex 2020.9.14)  30 APR 2025 21:57
 entering extended mode
 **./onepage_MNHN.tex
 (onepage_MNHN.tex
@@ -549,6 +549,12 @@ Underfull \hbox (badness 10000) in paragraph at lines 133--136
  []
 
 
+Underfull \hbox (badness 1082) in paragraph at lines 136--137
+[]\T1/FiraSans-OsF/regular/n/9 Colaborated with mul-tidiscip-lin-ary team of re
+-search-ers, tech-nical ex-perts,
+ []
+
+
 Underfull \hbox (badness 10000) in paragraph at lines 143--146
 
  []
@@ -563,43 +569,33 @@ File: mt-cmr.cfg 2013/05/19 v2.2 microtype config. file: Computer Modern Roman
 (RS)
 )
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <9> on input line 164.
+(Font)              <9> on input line 165.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <6> on input line 164.
+(Font)              <6> on input line 165.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <5> on input line 164.
-LaTeX Font Info:    Font shape `T1/FiraSans-OsF/m/it' in size <9> not available
+(Font)              <5> on input line 165.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 190.
 
-(Font)              Font shape `T1/FiraSans-OsF/regular/it' tried instead on in
-put line 164.
-LaTeX Font Info:    Font shape `T1/FiraSans-OsF/regular/it' will be
-(Font)              scaled to size 9.0pt on input line 164.
-
-Underfull \hbox (badness 10000) in paragraph at lines 172--173
-
- []
-
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 188.
 [1
 
 {C:/Users/susye/AppData/Local/MiKTeX/pdftex/config/pdftex.map}]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 188.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 190.
 
 (onepage_MNHN.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 188.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 188.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 190.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 190.
 Package rerunfilecheck Info: File `onepage_MNHN.out' has not changed.
 (rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 188.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 190.
  ) 
 Here is how much of TeX's memory you used:
- 10017 strings out of 480790
- 164040 string characters out of 2897301
+ 10019 strings out of 480790
+ 164123 string characters out of 2897301
  476862 words of memory out of 3000000
- 25812 multiletter control sequences out of 15000+200000
- 746785 words of font info for 77 fonts, out of 3000000 for 9000
+ 25809 multiletter control sequences out of 15000+200000
+ 732688 words of font info for 79 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
- 37i,6n,46p,507b,476s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 37i,6n,46p,493b,476s stack positions out of 5000i,500n,10000p,200000b,50000s
 {C:/Users/susye/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/fira/fir_iln36p
 .enc}{C:/Users/susye/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/fira/fir_2mf
 h3o.enc}{C:/Users/susye/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/fira/fir_
@@ -609,9 +605,9 @@ ublic/fira/FiraSans-Italic.pfb><C:/Users/susye/AppData/Local/Programs/MiKTeX/fo
 nts/type1/public/fira/FiraSans-Regular.pfb><C:/Users/susye/AppData/Local/Progra
 ms/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy9.pfb><C:/Users/susye/AppData/Loca
 l/Programs/MiKTeX/fonts/type1/public/marvosym/marvosym.pfb>
-Output written on onepage_MNHN.pdf (1 page, 179227 bytes).
+Output written on onepage_MNHN.pdf (1 page, 178477 bytes).
 PDF statistics:
  41 PDF objects out of 1000 (max. 8388607)
  2 named destinations out of 1000 (max. 500000)
- 13313 words of extra memory for PDF output out of 14400 (max. 10000000)
+ 12801 words of extra memory for PDF output out of 14400 (max. 10000000)
 
