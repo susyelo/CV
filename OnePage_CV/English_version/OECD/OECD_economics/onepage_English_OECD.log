@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 20.6.29) (preloaded format=pdflatex 2020.9.14)  30 APR 2025 22:07
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 20.6.29) (preloaded format=pdflatex 2020.9.14)  22 JUL 2025 16:21
 entering extended mode
 **./onepage_English_OECD.tex
 (onepage_English_OECD.tex
@@ -458,39 +458,45 @@ LaTeX Info: Redefining \nameref on input line 56.
 LaTeX Font Info:    Font shape `T1/FiraSans-OsF/m/n' in size <14.4> not availab
 le
 (Font)              Font shape `T1/FiraSans-OsF/regular/n' tried instead on inp
-ut line 114.
+ut line 115.
 LaTeX Font Info:    Font shape `T1/FiraSans-OsF/regular/n' will be
-(Font)              scaled to size 14.4pt on input line 114.
+(Font)              scaled to size 14.4pt on input line 115.
 LaTeX Font Info:    Font shape `T1/FiraSans-OsF/b/n' in size <14.4> not availab
 le
 (Font)              Font shape `T1/FiraSans-OsF/bold/n' tried instead on input 
-line 114.
+line 115.
 LaTeX Font Info:    Font shape `T1/FiraSans-OsF/bold/n' will be
-(Font)              scaled to size 14.4pt on input line 114.
+(Font)              scaled to size 14.4pt on input line 115.
 LaTeX Font Info:    Font shape `T1/FiraSans-OsF/b/sc' in size <14.4> not availa
 ble
 (Font)              Font shape `T1/FiraSans-OsF/bold/sc' tried instead on input
- line 114.
+ line 115.
 LaTeX Font Info:    Font shape `T1/FiraSans-OsF/bold/sc' will be
-(Font)              scaled to size 14.4pt on input line 114.
+(Font)              scaled to size 14.4pt on input line 115.
+LaTeX Font Info:    Font shape `T1/FiraSans-OsF/m/it' in size <10> not availabl
+e
+(Font)              Font shape `T1/FiraSans-OsF/regular/it' tried instead on in
+put line 115.
+LaTeX Font Info:    Font shape `T1/FiraSans-OsF/regular/it' will be
+(Font)              scaled to size 10.0pt on input line 115.
 LaTeX Font Info:    Font shape `T1/FiraSans-OsF/m/sc' in size <10> not availabl
 e
 (Font)              Font shape `T1/FiraSans-OsF/regular/sc' tried instead on in
-put line 114.
+put line 115.
 LaTeX Font Info:    Font shape `T1/FiraSans-OsF/regular/sc' will be
-(Font)              scaled to size 10.0pt on input line 114.
+(Font)              scaled to size 10.0pt on input line 115.
 LaTeX Font Info:    Font shape `T1/FiraSans-OsF/b/sc' in size <10> not availabl
 e
 (Font)              Font shape `T1/FiraSans-OsF/bold/sc' tried instead on input
- line 114.
+ line 115.
 LaTeX Font Info:    Font shape `T1/FiraSans-OsF/bold/sc' will be
-(Font)              scaled to size 10.0pt on input line 114.
+(Font)              scaled to size 10.0pt on input line 115.
 LaTeX Font Info:    Font shape `T1/FiraSans-OsF/m/n' in size <9> not available
 (Font)              Font shape `T1/FiraSans-OsF/regular/n' tried instead on inp
-ut line 114.
+ut line 115.
 LaTeX Font Info:    Font shape `T1/FiraSans-OsF/regular/n' will be
-(Font)              scaled to size 9.0pt on input line 114.
-LaTeX Font Info:    Trying to load font information for U+mvs on input line 114
+(Font)              scaled to size 9.0pt on input line 115.
+LaTeX Font Info:    Trying to load font information for U+mvs on input line 115
 .
 
 (C:\Users\susye\AppData\Local\Programs\MiKTeX\tex/latex/marvosym\umvs.fd)
@@ -498,7 +504,7 @@ LaTeX Font Info:    Trying to load font information for U+mvs on input line 114
 File: mt-mvs.cfg 2006/07/05 v1.1 microtype config. file: Marvosym Euro (RS)
 )
 LaTeX Font Info:    Trying to load font information for TS1+FiraSans-OsF on inp
-ut line 114.
+ut line 115.
 
 (C:\Users\susye\AppData\Local\Programs\MiKTeX\tex/latex/fira\ts1firasans-osf.fd
 File: TS1FiraSans-OsF.fd 2019/10/10 (autoinst) Font definitions for TS1/FiraSan
@@ -507,9 +513,9 @@ s-OsF.
 LaTeX Font Info:    Font shape `TS1/FiraSans-OsF/m/n' in size <10> not availabl
 e
 (Font)              Font shape `TS1/FiraSans-OsF/regular/n' tried instead on in
-put line 114.
+put line 115.
 LaTeX Font Info:    Font shape `TS1/FiraSans-OsF/regular/n' will be
-(Font)              scaled to size 10.0pt on input line 114.
+(Font)              scaled to size 10.0pt on input line 115.
 Package microtype Info: Loading generic protrusion settings for font family
 (microtype)             `FiraSans-OsF' (encoding: TS1).
 (microtype)             For optimal results, create family-specific settings.
@@ -517,50 +523,44 @@ Package microtype Info: Loading generic protrusion settings for font family
 LaTeX Font Info:    Font shape `T1/FiraSans-OsF/m/sc' in size <14.4> not availa
 ble
 (Font)              Font shape `T1/FiraSans-OsF/regular/sc' tried instead on in
-put line 122.
+put line 123.
 LaTeX Font Info:    Font shape `T1/FiraSans-OsF/regular/sc' will be
-(Font)              scaled to size 14.4pt on input line 122.
+(Font)              scaled to size 14.4pt on input line 123.
 LaTeX Font Info:    Font shape `T1/FiraSans-OsF/b/n' in size <10> not available
 
 (Font)              Font shape `T1/FiraSans-OsF/bold/n' tried instead on input 
-line 125.
+line 126.
 LaTeX Font Info:    Font shape `T1/FiraSans-OsF/bold/n' will be
-(Font)              scaled to size 10.0pt on input line 125.
-LaTeX Font Info:    Font shape `T1/FiraSans-OsF/m/it' in size <10> not availabl
-e
-(Font)              Font shape `T1/FiraSans-OsF/regular/it' tried instead on in
-put line 126.
-LaTeX Font Info:    Font shape `T1/FiraSans-OsF/regular/it' will be
 (Font)              scaled to size 10.0pt on input line 126.
 
-Underfull \hbox (badness 10000) in paragraph at lines 125--128
+Underfull \hbox (badness 10000) in paragraph at lines 126--129
 
  []
 
 LaTeX Font Info:    Font shape `TS1/FiraSans-OsF/m/n' in size <9> not available
 
 (Font)              Font shape `TS1/FiraSans-OsF/regular/n' tried instead on in
-put line 128.
+put line 129.
 LaTeX Font Info:    Font shape `TS1/FiraSans-OsF/regular/n' will be
-(Font)              scaled to size 9.0pt on input line 128.
+(Font)              scaled to size 9.0pt on input line 129.
 
-Underfull \hbox (badness 10000) in paragraph at lines 133--136
+Underfull \hbox (badness 10000) in paragraph at lines 134--137
 
  []
 
 LaTeX Font Info:    Font shape `T1/FiraSans-OsF/m/it' in size <9> not available
 
 (Font)              Font shape `T1/FiraSans-OsF/regular/it' tried instead on in
-put line 138.
+put line 139.
 LaTeX Font Info:    Font shape `T1/FiraSans-OsF/regular/it' will be
-(Font)              scaled to size 9.0pt on input line 138.
+(Font)              scaled to size 9.0pt on input line 139.
 
-Underfull \hbox (badness 10000) in paragraph at lines 144--147
+Underfull \hbox (badness 10000) in paragraph at lines 145--148
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 154--157
+Underfull \hbox (badness 10000) in paragraph at lines 155--158
 
  []
 
@@ -569,32 +569,32 @@ File: mt-cmr.cfg 2013/05/19 v2.2 microtype config. file: Computer Modern Roman
 (RS)
 )
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <9> on input line 166.
+(Font)              <9> on input line 167.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <6> on input line 166.
+(Font)              <6> on input line 167.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <5> on input line 166.
+(Font)              <5> on input line 167.
 
-Underfull \hbox (badness 10000) in paragraph at lines 173--174
+Underfull \hbox (badness 10000) in paragraph at lines 174--175
 
  []
 
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 189.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 190.
 [1
 
 {C:/Users/susye/AppData/Local/MiKTeX/pdftex/config/pdftex.map}]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 189.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 190.
 
 (onepage_English_OECD.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 189.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 189.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 190.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 190.
 Package rerunfilecheck Info: File `onepage_English_OECD.out' has not changed.
 (rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 189.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 190.
  ) 
 Here is how much of TeX's memory you used:
  10023 strings out of 480790
- 164360 string characters out of 2897301
+ 164450 string characters out of 2897301
  476878 words of memory out of 3000000
  25812 multiletter control sequences out of 15000+200000
  747445 words of font info for 81 fonts, out of 3000000 for 9000
@@ -609,7 +609,7 @@ ublic/fira/FiraSans-Italic.pfb><C:/Users/susye/AppData/Local/Programs/MiKTeX/fo
 nts/type1/public/fira/FiraSans-Regular.pfb><C:/Users/susye/AppData/Local/Progra
 ms/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy9.pfb><C:/Users/susye/AppData/Loca
 l/Programs/MiKTeX/fonts/type1/public/marvosym/marvosym.pfb>
-Output written on onepage_English_OECD.pdf (1 page, 180701 bytes).
+Output written on onepage_English_OECD.pdf (1 page, 180848 bytes).
 PDF statistics:
  41 PDF objects out of 1000 (max. 8388607)
  2 named destinations out of 1000 (max. 500000)
